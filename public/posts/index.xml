@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Machine learning in real life</title>
+    <link>https://mlinreallife.github.io/posts/</link>
+    <description>Recent content in Posts on Machine learning in real life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Aug 2020 06:11:10 +0200</lastBuildDate>
+    
+	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Is meritocracy possible? Is meritocracy acceptable? Answers from the book &#39;The rise of the meritocracy&#39;</title>
+      <link>https://mlinreallife.github.io/posts/meritocracy/</link>
+      <pubDate>Thu, 27 Aug 2020 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/meritocracy/</guid>
+      <description>Some times ago, I read a book about Agile. I found this reading inspiring. However, an idea struck me: some teams prefer hierarchy and some others meritocract.
+This is not the first time I see the word meritocracy used in software development or in data science. Sometimes, I also see articles bringing the idea that Agile enhances meritocracy.
+But what is meritocracy? Is it something desirable?
+Back to the origin Where does this word come from ?</description>
+    </item>
+    
+  </channel>
+</rss>
