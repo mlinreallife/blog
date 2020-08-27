@@ -4,7 +4,7 @@ date: 2020-08-27T06:11:10+02:00
 draft: true
 ---
 
-Some times ago, I read a book about Agile. I found this reading inspiring. However, a sentence struck me. This was the following :
+Some times ago, I read a book about Agile. I found this reading inspiring. However, an idea struck me: some teams prefer hierarchy and some others meritocract.
 
 This is not the first time I see the word *meritocracy* used in software development or in data science. Sometimes, I also see articles bringing the idea that Agile enhances meritocracy.
 
