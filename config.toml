@@ -1,4 +1,4 @@
-baseURL = "mlinreallife.github.io"
+baseURL = "https://mlinreallife.github.io"
 languageCode = "en-us"
 title = "Machine learning in real life"
 theme = "hyde-hyde"
