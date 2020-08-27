@@ -1,0 +1,25 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Machine learning in real life"
+theme = "hyde-hyde"
+
+[params.social]
+  gravatar = "nastasia.saby@gmail.com"
+  twitter = "saby_nastasia"
+
+[params]
+    author="Nastasia Saby"
+    description="Nastasia Saby"
+    mainSections = ["posts"]
+
+    ## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
