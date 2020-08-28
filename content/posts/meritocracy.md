@@ -4,7 +4,7 @@ date: 2020-08-27T06:11:10+02:00
 draft: false
 ---
 
-Some times ago, I read a book about Agile. I found this reading inspiring. However, an idea struck me: some teams prefer hierarchy and some others meritocract.
+Some times ago, I read a book about Agile. I found this reading inspiring. However, an idea struck me: some teams prefer hierarchy and some others meritocracy.
 
 This is not the first time I see the word *meritocracy* used in software development or in data science. Sometimes, I also see articles bringing the idea that Agile enhances meritocracy.
 
@@ -28,7 +28,7 @@ You are considered as meritant in a specific context. In **The rise of the merit
 Then, the ideology of meritocracy leads to validate inequalities. If you are less paid, this is because you deserve it. On the contrary, if you have a good job or a good position, this is because you have the abilities for that. This is the reward you deserve. This situation brings sadness for lower people in the society and arrogance for higher people. This is not something desirable.
 
 ## Is meritocracy possible ?
-Mickael Young didn’t answer this question in this book, but others tried to do it. I’m thinking of Pierre Bourdieux, another sociologist that writes many books on this subject. However, I'm not sure he has ever used the term.
+Mickael Young didn’t answer this question in this book, but others tried to do it. I’m thinking of Pierre Bourdieux, another sociologist that writes many books on this subject. However, I'm not sure he has ever used the term. I may be extrapolating.
 
 To summarize the idea of Pierre Bourdieux, you are the result of an economical and cultural inheritance. This means that you are not equal when acting in the world. 
 
