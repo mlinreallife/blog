@@ -1,41 +1,64 @@
 ---
-title: "Is meritocracy possible? Is meritocracy acceptable? Answers from the book 'The rise of the meritocracy'"
-date: 2020-08-27T06:11:10+02:00
+title: "Do data scientists act crazy?"
+date: 2020-08-28T06:11:10+02:00
 draft: false
 ---
 
-Some times ago, I read a book about Agile. I found this reading inspiring. However, an idea struck me: some teams prefer hierarchy and some others meritocracy.
+I used to be a web developer. The first time, I saw code from a data scientist, I was shocked. For me it was a mess. The quality was poor in comparison of what I was used to doing in software development. There was almost no test. I was unpleasantly surprised to see that sometimes there was no versioning system.
 
-This is not the first time I see the word *meritocracy* used in software development or in data science. Sometimes, I also see articles bringing the idea that Agile enhances meritocracy.
+Seeing that, I was sure: data scientists act crazy. Now, I am a data scientist. Do I act crazy? I hope not.
 
-But what is meritocracy? Is it something desirable?
+## Yes, the level of code quality could be better in data science. Data quality is even more important
 
-## Back to the origin
+I'm not saying that code quality is not useful in data science. It is. But code is maybe less important than data in data science. First, it is rarely as huge and complex as that in software engineering. It doesn't express functionalities. 
 
-Where does this word come from ? 
+In software development, you build a specification.
 
-If you look deeply to the term *meritocracy*, you will notice something weird. The prefix is latin and the suffix is greek. This gives you a clue to the origin. The word *meritocracy* is a neologism.
- 
- Mickael Young is the sociologist that creates this term. In 1954, he wrote a book named **The rise of the meritocracy**. This book is a political fiction that looks like **Brave new world** or **1984**. 
- 
- Mickael Young raises the question : is meritocracy acceptable ? What I really like about this story is that the writer, using fiction, supposes that meritocracy is possible. This way, he can ask : is it desirable ? Short answer : no. 
- 
- The word *meritocracy* was created to criticize this idea. However, it is often used in a positive way. That was not the purpose.
+You create a program with data to get a result.
 
-## Why is meritocracy not supposed to be a positive idea ?
-You are considered as meritant in a specific context. In **The rise of the meritocracy**, you are seen as a valuable person because you are able to be productive in a given society. If this one is built around hunt and you’re a good hunter, you will be an accountable person. Otherwise, you are useless. I would say that this is the first problem raised by the author: meritocracy is relative. You can have qualities in a field that is not the most useful for a context. This doesn’t mean that you are not valuable.
+![Software development](/common.png) 
 
-Then, the ideology of meritocracy leads to validate inequalities. If you are less paid, this is because you deserve it. On the contrary, if you have a good job or a good position, this is because you have the abilities for that. This is the reward you deserve. This situation brings sadness for lower people in the society and arrogance for higher people. This is not something desirable.
+In data science, you try to optimize a cognitive process. You have some data and one result. With that, you build a program.
 
-## Is meritocracy possible ?
-Mickael Young didn’t answer this question in this book, but others tried to do it. I’m thinking of Pierre Bourdieux, another sociologist that writes many books on this subject. However, I'm not sure he has ever used the term. I may be extrapolating.
+![Data science](/ds.png)
 
-To summarize the idea of Pierre Bourdieux, you are the result of an economical and cultural inheritance. This means that you are not equal when acting in the world. 
+You have less code.
 
-Some people know more how to deal with it and access high positions because they were unconsciously trained to do it. They have cultural habits that not everyone has.
+On the contrary, you have much more data. I have already seen projects stopped because of data quality. If you want to improve a process but have poor data about it, you won't be able to build a system with that.
+
+Then, as a data scientist, you need to pay attention to your code quality and your data quality.
+
+## Yes, data scientists could do more code tests. Data and model tests are even more important
+
+Tests are important. They are the key if you want to be sure that your application is working. And you don't want to do that manually. So, fortunately, automated tests were invented. And that's nice.
+
+And I definitely think that code tests are important in data science even if you have less code. It's the way to be sure that you have no regression.
+
+... At least not in your code. 
+
+In data science, regressions can come from your data and it can impact your model. If you don't monitor it, you will have a silent failure. Your system has no visible bugs. But the prediction is inefficient.
+
+To prevent that, you can test the performance of your model to be sure that everything is still okay.
+
+You can also track your data quality and your data changes. If you have a broken data or a high variation in your data, your model can perform badly.
+
+This is why testing your data and model is so important.
+
+## Yes, versioning your machine learning code is important. Versioning your model and you data is almost as much as important
+
+I don't think versioning your code is an option.
+
+But, when your data are so important that they build your program, it's important to version them too.
+
+In case of a bug, you know what happened. By versioning your data and your model, which is stochastic, you can reproduce a previous state. 
+
 
 ## Conclusion
-To conclude, the purpose of this article was to speak about a book not famous enough (from my point of view) called **The rise of the meritocracy**. This book is the origin of the word *meritocracy*, a negative word. 
 
-I’ve discovered the concept of *meritocracy* recently and wanted to share it. In my humble opinion, it’s always better to know the origin of a concept you use. And we sometimes use the concept of *meritocracy* in software development or data science.
+Don't get me wrong. Code quality, code tests and code versioning are very important even in data science. I regret they are so often forgotten.
 
+In data science, data is maybe more important than code. To my opinion, this is why sometimes data scientists are more willing to test and version their data and models than their code. 
+
+Data science is complex because to build a reliable system you must test, version and pay attention to the quality of your code, BUT ALSO your models and data.
+
+To conclude, I would say that yes the first time, I saw code from a data scientist, I was shocked. Now as a machine learning engineer, I think code quality could be better in data science, but I realise the importance of models and data quality too. Code quality is only the tip of the iceberg.

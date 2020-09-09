@@ -1,64 +1,48 @@
 ---
-title: "Do data scientists act crazy?"
-date: 2020-08-28T06:11:10+02:00
+title: "Doing web without JavaScript, HTML nor CSS for data science"
+date: 2020-09-07T06:11:10+02:00
 draft: false
 ---
 
-I used to be a web developer. The first time, I saw code from a data scientist, I was shocked. For me it was a mess. The quality was poor in comparison of what I was used to doing in software development. There was almost no test. I was unpleasantly surprised to see that sometimes there was no versioning system.
+I've recently played with a tool named *Streamlit*. I wanted to share this experience with you.
+ 
+If you want to build a simple web page to expose your models using only Python, this library is for you.
 
-Seeing that, I was sure: data scientists act crazy. Now, I am a data scientist. Do I act crazy? I hope not.
+*Streamlit* was launched the first of october in 2019. You can get more information in the [launch blog post](https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace).
 
-## Yes, the level of code quality could be better in data science. Data quality is even more important
+Here is the traditional *hello world*:
 
-I'm not saying that code quality is not useful in data science. It is. But code is maybe less important than data in data science. First, it is rarely as huge and complex as that in software engineering. It doesn't express functionalities. 
+```python
+import streamlit as st
 
-In software development, you build a specification.
+st.write("Hello world!")
 
-You create a program with data to get a result.
+```
 
-![Software development](/common.png) 
+With that, you get that:
 
-In data science, you try to optimize a cognitive process. You have some data and one result. With that, you build a program.
+To dive deeper in this tool, I recommend the [official website](https://www.streamlit.io/).
 
-![Data science](/ds.png)
-
-You have less code.
-
-On the contrary, you have much more data. I have already seen projects stopped because of data quality. If you want to improve a process but have poor data about it, you won't be able to build a system with that.
-
-Then, as a data scientist, you need to pay attention to your code quality and your data quality.
-
-## Yes, data scientists could do more code tests. Data and model tests are even more important
-
-Tests are important. They are the key if you want to be sure that your application is working. And you don't want to do that manually. So, fortunately, automated tests were invented. And that's nice.
-
-And I definitely think that code tests are important in data science even if you have less code. It's the way to be sure that you have no regression.
-
-... At least not in your code. 
-
-In data science, regressions can come from your data and it can impact your model. If you don't monitor it, you will have a silent failure. Your system has no visible bugs. But the prediction is inefficient.
-
-To prevent that, you can test the performance of your model to be sure that everything is still okay.
-
-You can also track your data quality and your data changes. If you have a broken data or a high variation in your data, your model can perform badly.
-
-This is why testing your data and model is so important.
-
-## Yes, versioning your machine learning code is important. Versioning your model and you data is almost as much as important
-
-Versioning your code is a must have. I don't think it's not an option.
-
-When your data are so important that they build your program, it's important to version them too.
-
-In case of a bug, you know what happened. By versioning your data and your model, which is stochastic, you can reproduce a previous state. 
+My goal in this article is more to tell you the benefits and disadvantages I found after using it.
 
 
+## Benefits:
+
+- Useful when you want to build a simple page quickly.
+- Interesting when you want to expose a simple prediction.
+- With *Streamlit*, there's no need to know HTML, CSS, etc. You only have to know Python.
+- Many graphs to represent data.
+- A large and active community.
+
+This tool is built for data scientists and data science. It is helpful for simple pages, demo pages and simple predictions.
+
+I experienced it to build a demo page to give a prediction. It is supposed to be useful to represent data too, but I didn't try that.
+ 
+## Disadvantages:
+- As always, these kinds of tools are not very flexible. This is not the purpose though.
+- For instance, it's difficult to get different forms in one page. You can find your way with *checkboxes* instead of *submit* button. But it's a bit weird.
+- It's also difficult to get different pages in one application. The option *st.cache* can save your life. But it's not enough to get a complete application.
+ 
 ## Conclusion
 
-Don't get me wrong. Code quality, code tests and code versioning are very important even in data science. I regret they are so often forgotten.
-
-In data science, data is maybe more important than code. To my opinion, this is why sometimes data scientists are more willing to test and version their data and models than their code. 
-
-Data science is complex because to build a reliable system you must test, version and pay attention to the quality of your code, BUT ALSO your models and data.
-
-To conclude, I would say that yes the first time, I saw code from a data scientist, I was choked. Now as a machine learning engineer, I think code quality could be better in data science, but I realise the importance of models and data quality too. Code quality is only the tip of the iceberg.
+*Streamlit* was designed for data applications. It's not a perfect tool but a very promising one to my opinion.
