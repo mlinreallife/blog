@@ -1,7 +1,7 @@
 ---
 title: "Doing web without JavaScript, HTML nor CSS for data science"
-date: 2020-09-07T06:11:10+02:00
-draft: false
+date: 2020-09-31T06:11:10+02:00
+draft: true
 ---
 
 I've recently played with a tool named *Streamlit*. I wanted to share this experience with you.
