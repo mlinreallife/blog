@@ -1,7 +1,7 @@
 ---
 title: "Doing web without JavaScript, HTML nor CSS for data science"
-date: 2020-09-31T06:11:10+02:00
-draft: true
+date: 2020-09-18T17:01:10+02:00
+draft: false
 ---
 
 I've recently played with a tool named *Streamlit*. I wanted to share this experience with you.
@@ -19,11 +19,13 @@ st.write("Hello world!")
 
 ```
 
-With that, you get that:
+With that, you get this:
+
+![Hello world with Streamlit](/streamlit.png) 
 
 To dive deeper in this tool, I recommend the [official website](https://www.streamlit.io/).
 
-My goal in this article is more to tell you the benefits and disadvantages I found after using it.
+My goal with this article is telling you the benefits and disadvantages I found after using it.
 
 
 ## Benefits:
@@ -45,4 +47,4 @@ I experienced it to build a demo page to give a prediction. It is supposed to be
  
 ## Conclusion
 
-*Streamlit* was designed for data applications. It's not a perfect tool but a very promising one to my opinion.
+*Streamlit* was designed for data applications. It's not a perfect tool but a very promising one in my opinion.
