@@ -37,8 +37,6 @@ My goal with this article is telling you the benefits and disadvantages I found 
 - A large and active community.
 
 This tool is built for data scientists and data science. It is helpful for simple pages, demo pages and simple predictions.
-
-I experienced it to build a demo page to give a prediction. It is supposed to be useful to represent data too, but I didn't try that.
  
 ## Disadvantages:
 - As always, these kinds of tools are not very flexible. This is not the purpose though.
