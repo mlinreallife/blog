@@ -51,4 +51,4 @@ Pomodoro alleviates my anxiety and helps me to stay focus. Yes, I still have to 
 
 This is why I like this tool.
 
-Thank you for reading. Feel free to contact me on Twitter if you want to discuss that.
+Thank you for reading. Feel free to contact me on [Twitter](https://twitter.com/saby_nastasia) if you want to discuss that.
