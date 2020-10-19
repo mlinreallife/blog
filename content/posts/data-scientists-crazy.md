@@ -4,7 +4,7 @@ date: 2020-08-28T06:11:10+02:00
 draft: false
 ---
 
-I used to be a web developer. The first time, I saw code from a data scientist, I was shocked. For me it was a mess. The quality was poor in comparison of what I was used to doing in software development. There was almost no test. I was unpleasantly surprised to see that sometimes there was no versioning system.
+I used to be a web back-end developer. The first time, I saw code from a data scientist, I was shocked. For me it was a mess. The quality was poor in comparison of what I was used to doing in software development. There was almost no test. I was unpleasantly surprised to see that sometimes there was no versioning system.
 
 Seeing that, I was sure: data scientists act crazy. Now, I am a data scientist. Do I act crazy? I hope not.
 

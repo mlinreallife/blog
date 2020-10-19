@@ -1,24 +1,24 @@
 ---
 title: "Data drift monitoring: hypothesis tests or statistical distances?"
-date: 2020-09-30T17:01:10+02:00
-draft: true
+date: 2020-09-30T13:01:10+02:00
+draft: false
 ---
 
-Today, I would like to talk about a tough and important subject in my opinion: input data drift monitoring.
+Today, I would like to talk about a tough and important subject in my opinion: data drift monitoring.
 
-Data drift monitoring is critical. Input data drift leads to model performance decrease.
+Data drift monitoring is critical. Data drift leads to model performance decrease.
 At the same time, IMHO, it's hard to get a satisfactory solution for at least two reasons:
 - It's challenging to develop a custom solution.
 - It's laborious to know if it is preferable to compute statistical distances or try to reject a hypothesis test with a p-value?
 
-## What is "input data drift"?
+## What is data drift?
 
-*Input data drift* is when you get such a change in your coming data that it can impact the performance of the model.
+*Data drift* is when you get such a change in your coming data that it can impact the performance of the model.
 
 What I name *data drift* has synonyms such as *data shift*.
 The word gets also many subnames to describe the specificities of each kind of *data drift*. You can get *gradual drift*, *abrupt drift*, *extended drift*, etc.
 
-I think it's important to understand that there are many kinds of drifts and that they don't say the same thing.
+I think it's important to understand that there are many kinds of drifts and that they don't mean the same thing.
 
 - A short but abrupt drift can be due to a problem in your data.
 - An extended abrupt drift can be due to a recession.
@@ -26,7 +26,7 @@ I think it's important to understand that there are many kinds of drifts and tha
 
 You can see all these nuances in the paper [Characterizing Concept Drift](https://www.researchgate.net/publication/283761478_Characterizing_Concept_Drift) by Geoffrey I Webb, Roy Hyde, Hong Cao, Hai-Long Nguyen and François Petitjean.
 
-## How to monitor "input data drift"?
+## How to monitor data drift?
 
 There are two solutions that are presented in the literature.
 
@@ -56,11 +56,11 @@ I had a discussion with one of the authors and found his explanation quite clari
 
 The distance between two distributions doesn't tell you when you have to be concerned. You must set a threshold to send an alert. This is what a statistical test does. *p-value* is surely not the best metric. But at least, it's easier to understand a *p-value* than a *wasserstein distance*.
 
-The paper talks about a library I definitively want to test: [alibi-detect](https://github.com/SeldonIO/alibi-detect). It was designed to detect data drift with hypothesis tests: *Kolmogorov-Smirnov* and *Maximum Mean Discrepancy*.
+The paper talks about a library I definitely want to test: [alibi-detect](https://github.com/SeldonIO/alibi-detect). It was designed to detect data drift with hypothesis tests: *Kolmogorov-Smirnov* and *Maximum Mean Discrepancy*.
 
 ## Conclusion
 
-To answer the question previously asked *Data drift monitoring: hypothesis tests or statistical distances?*, I don't know. *Data Drift* is currently an open research area. So, it's normal not to know. What I definitively believe is that it's a tough but important topic. Then I would say it's better to do something - hypothesis test or statistical distance - instead of nothing.
+To answer the question previously asked *Data drift monitoring: hypothesis tests or statistical distances?*, I don't know. *Data Drift* is currently an open research area. I guess it's normal not to know. What I definitely believe is that it's a tough but important topic. Then I would say it's better to do something - hypothesis tests or statistical distances - than nothing.
 
 [Azure Machine learning](https://azure.microsoft.com/fr-fr/services/machine-learning/) or [Mona Labs](https://www.monalabs.io/) proposes off-the-shelf solutions.
 
