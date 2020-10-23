@@ -21,43 +21,63 @@ If failures could be a way of learning, learning takes time.
 To explain that, I would like to share with you the content of my first reading. It's a poem from Portia Nelson that is valuable in our jobs and life, in my opinion.
 
 > I
-
+>
 > I walk down the street.
+>
 > There is a deep hole in the sidewalk
+>
 > I fall in.
+>
 > I am lost ... I am helpless.
+>
 > It isn't my fault.
+>
 > It takes me forever to find a way out.
 
 > II
-
+>
 > I walk down the same street.
+>
 > There is a deep hole in the sidewalk.
+>
 > I pretend I don't see it.
+>
 > I fall in again.
+>
 > I can't believe I am in the same place
+>
 > but, it isn't my fault.
+>
 > It still takes a long time to get out.
 
 > III
-
+>
 > I walk down the same street.
+>
 > There is a deep hole in the sidewalk.
+>
 > I see it is there.
+>
 > I still fall in ... it's a habit.
+>
 > my eyes are open
+>
 > I know where I am.
+>
 > It is my fault.
+>
 > I get out immediately.
 
 > IV
-
+>
 > I walk down the same street.
+>
 > There is a deep hole in the sidewalk.
+>
 > I walk around it.
 
 > V
-
+>
 > I walk down another street.
 
 # Third enlightenment: without post-mortem, failure is just unworthwhile failure
