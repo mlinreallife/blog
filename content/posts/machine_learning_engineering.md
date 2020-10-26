@@ -170,4 +170,71 @@ In addition to L1 and L2 regularization, neural networks benefit from neural net
 
 Batch-normalization is a best practice.
 
-Ensemble learning is training an ensemble model, which is a combination of several base models, each indivi
+Ensemble learning is training an ensemble model, which is a combination of several base models, each individually performing worse than the ensemble model.
+
+Strong models can be combined into an ensemble model by averaging their outputs or by taking a majority vote. Model-stacking being the most effective of the ensembling methods, consists of training a meta-model that takes the output of base models as input.
+
+The performance of the model can be iteratively improved using the following simple process:
+
+1. Train the model using the best values of hyperparameters identified so far
+2. Test the model by applying it to a small subset of the validation set (100 - 300 examples)
+3. Find the most frequent error patterns on that small validation set. Remove those 
+
+# Evaluation
+
+All statistical models running in production must be carefully and continuously evaluated.
+
+- Estimate legal risks of putting the model in production
+- Understand the main properties of the distribution of the data used to train the model
+- Evaluate the performance of the model prior to deployment, and
+- Monitor the performance of the deployed model
+
+An offline model evaluation happens after the model was trained. It is biased on the historical data. The online model evaluation consists of testing and comparing models in the production environment using online data.
+
+A popular technique of online model evaluation is A/B testing. When performing A/B testing, we split users into two groups. 
+
+Multi-armed brandit is another popular technique of online model evaluation. 
+
+Accuracy, robustness and fairness may have to be evaluated sometimes.
+
+# Model deployment
+The most popular deployment pattern is to deploy the model on a server and make it available as a Rest API.
+
+Silent deployment: the old and new versions are running in parallel. The user is exposed to the new version when the switch is done. The predictions made by the new version are only logged and analyzed. Thus, there is enough time to make sure that the new model works as expected without affecting any user. A drawback is the need to run more models wich consumes more resources.
+
+Canary deployment: consists of publishing the new version to a small fraction of the users, while keeping the old version running for most users. Canary deployment allows model performance validation and evaluating the users'experience. It won't affect lots of users in case of possible bugs.
+
+Multi-armed brandits allow us to deploy the new model while keeping the old one. The algorithm replaces the old model with the new one only when it is certain that it performs better.
+
+Experienced scientists and engineers build Python packages with efficiency in mind.
+
+# Model serving, monitoring and maintenance
+
+An effective runtime has the followig properties. It is secure and correct, ensures ease of deployment and recovery, and provides guarantees of model validity.
+
+ML models are served in either batch or on-demand mode. Batch mode for big data and when some latency is tolerable.
+
+The model deployed in production must be constantly monitored. The goals of monitoring are to make sure that the model is served correctly, and that the performance of the model remains within acceptable limits.
+
+A variety of things might go wrong with the model in production, in particular:
+- Addition training data made the model perform worse
+- the properties of the production data changed, but the model didn't
+- the feature extraction code was significantly updated, but the model didn't adapt
+- a resource needed to generate a feature changed or became unaivalable
+- the model is abused or is under an adversarial attack
+
+An automation must calculate values of the performance metrics critical for the business, and send alerts to the appropriate stakeholders if the values of those metrics change significantly or fall below a threshold. In addition, the monitoring must reveal the distribution shift, numerical instability and a decreasing computatinal performance.
+
+It's important to log enough information to reproduce any erratic system behavior during an analysis in the future.
+Most machine learning models must be regularly or occasionnaly updated. The rate of updates depends on several factors.
+
+- How often it makes errors and how critical they are
+- How "fresh" the model should be to be usefula
+- How fast new training data becomes available
+- How much time it takes to retrain a model
+- How costly it is to train and deploy the model, and
+- How much a model update contributes to the achievement of user goals
+
+After a model update, a good practice is to run the model against the examples in the end-to-end and confidence test sets. It's important to make sure that the outputs are either the same as before, or that the changes are as expected.
+
+Check also that the errors are distributed uniformly across the user categories. It's undesirable if the new model negatively affects users from a minority or specific location.

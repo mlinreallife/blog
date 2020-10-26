@@ -1,5 +1,5 @@
 ---
-title: "How to win friends and influence people: an uplifting and disappointing reading"
+title: "How to win friends and influence people: a disappointing reading"
 date: 2020-09-18T17:01:10+02:00
 draft: true
 ---
@@ -11,9 +11,9 @@ Dale Carnegie advises about how to handle people, win friends, influence people,
 
 The overall idea is to avoid arguments and criticize people. Instead of that, try to understand them. Make an effort towards them. Encourage them to speak. Be a deep listener. Smile. Show respect. Admit your errors. Never say to someone that he is wrong. Don't lose your temper.
 
-This is what you will find in this book. I found the reading uplifting but also disappointing.
+This is what you will find in this book. I found the reading interesting but also terribly disappointing.
 
-# Why is this reading uplifting?
+# Why is this reading interesting?
 
 I enjoyed several ideas that were reported.
 
