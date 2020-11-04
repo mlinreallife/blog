@@ -238,3 +238,24 @@ Most machine learning models must be regularly or occasionnaly updated. The rate
 After a model update, a good practice is to run the model against the examples in the end-to-end and confidence test sets. It's important to make sure that the outputs are either the same as before, or that the changes are as expected.
 
 Check also that the errors are distributed uniformly across the user categories. It's undesirable if the new model negatively affects users from a minority or specific location.
+
+Hammelina, AUC computing with Spark:
+dates = predictions.select("prediction_date").distinct().collect()
+formatted_dates = [str(item.prediction_date) for item in dates]
+
+aucs_by_date = []
+for item in dates:
+  formatted_date = str(item.prediction_date)
+  filtered_predictions = predictions.filter(f"prediction_date == '{formatted_date}'")
+  prepared_predictions = filtered_predictions.selectExpr("prediction as label", "cast(1.0 as float) as rawPrediction").rdd.map(lambda s: (s.label, s.rawPrediction))
+  metrics = BinaryClassificationMetrics(prepared_predictions)
+  auc_by_date = (metrics.areaUnderROC, formatted_date)
+  aucs_by_date.append(auc_by_date)
+  
+columns = ["auc","date"]
+aucs_by_date_df = spark.createDataFrame(data = aucs_by_date, schema = columns)
+display(aucs_by_date_df)
+
+# columns = ["prediction_date", "actual", "prediction"]
+# data = [("2020-10-28", 1.0, 1.0),("2020-10-28", 1.0, 0.0),("2020-10-29", 1.0, 1.0),("2020-10-29", 1.0, 1.0),("2020-10-30", 1.0, 0.0), ("2020-10-30", 1.0, 0.0), ("2020-10-31", None, 0.0), ("2020-10-31", None, 0.0)]
+# predictions = spark.createDataFrame(data = data, schema = columns)
