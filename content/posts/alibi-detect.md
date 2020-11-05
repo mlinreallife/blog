@@ -4,9 +4,10 @@ date: 2020-09-18T17:01:10+02:00
 draft: true
 ---
 
-I've recently tested *Alibi-detect* for data drift detection. I think it's the best tool that is free and open-source currently available on the market to do data drift detection.
+I've recently tested *Alibi-detect*. 
+If you're looking for a free and open source tool to detect data drift, this one is for you.
 
-Let's get an overview of what is inside. I will focus only on data drift detection. It is also a library for anomaly detection for instance.
+Let's get an overview of what is inside and how you can use it.
 
 # The assumptions
 The data drift detection of the library is based on a paper called *Failing Loudly: An Empirical Study of Methods

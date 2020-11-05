@@ -4,7 +4,7 @@ date: 2020-09-18T17:01:10+02:00
 draft: true
 ---
 
-Most of the time, as data scientists or developers, we speak about our successes. Today, I would like to deal with the mistakes I've done in my career. 
+Most of the time, as data scientists or developers, we speak about our successes. Today, I would like to deal with the mistakes I've done in my career. Sometimes mistakes can be a valuable share.
 I've chosen four ones. I've sorted them from the least important one to the worst one.
 
 # 1. Invoices in production
@@ -55,7 +55,7 @@ As a result, the team didn't launch them.
 Far from all, I consider that the worst error in my career was to be reluctant to interruptions and questions from my colleagues. 
 
 I was considering that only my work was worthwhile. I didn't consider my team. I didn't consider that the work done by my team was also my work.
-I didn't notice that their work helped me as mine helped us. I was selfish and blind. As a consequence, I disliked to be interrupted. I was irritated when a someone asked me a question. I was even more irritated when she or he asked me about something I've already answered. I'm full of regrets when I think of that. I'm ashamed of myself. How could I be so egoistic and ignorant? After some times, I realised I was wrong. After this experience, I never did that again. Now, I try to show everyone that I'm happy to help and I AM.
+I didn't notice that their work helped me as mine helped us. I was selfish and blind. As a consequence, I disliked being interrupted. I was irritated when someone asked me a question. I was even more irritated when she or he asked me about something I've already answered. I'm full of regrets when I think of that. I'm ashamed of myself. How could I be so egoistic and ignorant? After some time, I realised I was wrong. After this experience, I never did that again. Now, I try to show everyone that I'm happy to help and I AM.
 
  **Which lessons can I learn from that?**
  - If you work in a team, behave as a member of the team contributing to a collective work.
@@ -65,3 +65,5 @@ I didn't notice that their work helped me as mine helped us. I was selfish and b
 # Conclusion
 
 I guess every developer or data scientist has already done mistakes. A bug or a bad manipulation can be critical, but its impacts are limited. When you're wrong in your overall assumptions, that can be much more harmful.
+
+Thank you for reading. Feel free to contact me on [Twitter](https://twitter.com/saby_nastasia) if you want to discuss that.

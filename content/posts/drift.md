@@ -26,7 +26,7 @@ You can observe model drift during retraining and when comparing your prediction
 
 To observe data drift, you must monitor your data after having ingested them.
 
-I would recommend starting by monitoring model drift by doing retraining. Then, compare your results with the real ones and do data drift. If you set up retraining once a month, you could realise that you need to retrain more often. To realise that, you need to see the real results or if not possible evaluate the data drift.
+I would recommend starting by monitoring model drift by doing retraining. Be aware that it might be not enough. You will certainly need to recalibrate your model sometimes. Then, compare your results with the real ones and do data drift. If you set up retraining once a month, you could realise that you need to retrain more often. To realise that, you need to see the real results or if not possible evaluate the data drift.
 
 Data drift is also a way to understand better why there's a model drift. It is a help for investigation.
 
