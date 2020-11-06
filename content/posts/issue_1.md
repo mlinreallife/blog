@@ -35,10 +35,10 @@ The failures in data science are silent. This paper tests different solutions to
 ## [Etre freelance c'est être entrepreneur (A freelancer is an entrepreneur)] (https://smartlink.ausha.co/punkindev/episode-10-etre-freelance-c-est-etre-entrepreneur)
 
 Si vous êtes freelance ou que vous projetez de le devenir, cet épisode est pour vous.
-Même si vous n'êtes pas freelance, vous apprendrez à négocier votre salaire.
+Même si vous n'êtes pas freelance, vous apprendrez quelques astuces pour négocier votre futur salaire.
 
 If you're a freelancer or plan to do it, this episode is for you.
-Even if you're not a freelancer, you will learn how to negotiate your salary.
+Even if you're not a freelancer, you will learn some tips to negotiate your future salary.
 
 
 Thank you for reading. Feel free to contact me on [Twitter](https://twitter.com/saby_nastasia) if you want to discuss that.
