@@ -7,7 +7,7 @@ draft: true
 Machine learning in real life is hard. Finding your way into all the methods and tools is not easy.
 Here you will find some resources that inspired me recently to do data versioning, tests or data drift detection.
 
-# Resources in English
+# English resources
 
 ## [Comparing Data Version Control Tools - 2020](https://dagshub.com/blog/data-version-control-tools/)
 
@@ -30,7 +30,7 @@ The failures in data science are silent. This paper tests different solutions to
 
 ![Failing loudly process](/failing_loudly_paper.png)
 
-# Resources in French
+# French resources
 
 ## [Etre freelance c'est être entrepreneur (A freelancer is an entrepreneur)] (https://smartlink.ausha.co/punkindev/episode-10-etre-freelance-c-est-etre-entrepreneur)
 
