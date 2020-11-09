@@ -1,9 +1,7 @@
 baseURL = "https://mlinreallife.github.io"
-languageCode = "en-us"
+languageCode = "en-uk"
 title = "Machine learning in real life"
 theme = "hyde-hyde"
-
-languageCode = "en-uk"
 DefaultContentLanguage = "en"
 paginate = 12
 
@@ -26,6 +24,7 @@ canonifyURLs = true
     author="Nastasia Saby"
     description="Nastasia Saby"
     mainSections = ["posts"]
+    keywords = ["machine learning", "models", "data science", "production", "engineering", "ml"]
 
     ## Main Menu
 [[menu.main]]

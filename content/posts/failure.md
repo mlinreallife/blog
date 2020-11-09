@@ -1,7 +1,7 @@
 ---
 title: "Failure is not what you think it is"
-date: 2020-10-13T18:01:10+02:00
-draft: true
+date: 2020-10-26T18:01:10+02:00
+draft: false
 ---
 
 In some interviews, some people enjoy asking: what was your best failure in your career? I used to hate this question. Failure is just failure, something that should not arrive at any cost. After some readings, I've changed my mind.
@@ -18,7 +18,7 @@ First of all, something simple but with large consequences: you will face failur
 
 If failures could be a way of learning, learning takes time.
 
-To explain that, I would like to share with you the content of my first reading. It's a poem from Portia Nelson that is valuable in our jobs and life, in my opinion.
+To explain that, I would like to share with you the content of my first reading. It's a poem from Portia Nelson that is valuable in my opinion.
 
 > I
 >
