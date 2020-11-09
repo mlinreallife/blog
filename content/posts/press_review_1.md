@@ -1,6 +1,6 @@
 ---
-title: "Issue 1: Data versioning, tips for Pytest, freelancing, etc"
-date: 2020-10-22T19:01:10+02:00
+title: "Press review 1: Data versioning, tips for Pytest, freelancing, etc"
+date: 2020-11-09T07:01:10+02:00
 draft: true
 ---
 
@@ -17,7 +17,7 @@ A great comparison between all the tools you can use to do data versioning.
 
 >Managing data versions is a necessary step for data science teams to avoid output inconsistencies. Without data versioning tools, your on-call data scientist might find themselves up at 3 a.m. debugging a model issue resulting from inconsistent model outputs.
 
-## [Pytest Options: Best Practices and Examples] (https://queirozf.com/entries/pytest-options-best-practices-and-examples)
+## [Pytest Options: Best Practices and Examples](https://queirozf.com/entries/pytest-options-best-practices-and-examples)
 
 A short but useful article about tips to do tests with Pytest for Python:
 - Show stdout output using *pytest --capture=tee-sys*
@@ -32,7 +32,7 @@ The failures in data science are silent. This paper tests different solutions to
 
 # French resources
 
-## [Etre freelance c'est être entrepreneur (A freelancer is an entrepreneur)] (https://smartlink.ausha.co/punkindev/episode-10-etre-freelance-c-est-etre-entrepreneur)
+## [Etre freelance c'est être entrepreneur (A freelancer is an entrepreneur)](https://smartlink.ausha.co/punkindev/episode-10-etre-freelance-c-est-etre-entrepreneur)
 
 Si vous êtes freelance ou que vous projetez de le devenir, cet épisode est pour vous.
 Même si vous n'êtes pas freelance, vous apprendrez quelques astuces pour négocier votre futur salaire.

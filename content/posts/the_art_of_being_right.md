@@ -1,7 +1,7 @@
 ---
 title: "The art of being right in your job"
-date: 2020-09-18T17:01:10+02:00
-draft: true
+date: 2020-11-09T07:01:10+02:00
+draft: false
 ---
 
 **Have you ever struggled to explain why automated tests are important (or why refactoring should be a natural step when developing, or anything like that) to very reluctant and dogmatic but influential people such as well-established but very old school architects for instance?**
@@ -43,7 +43,7 @@ If your colleagues agree with you, your opponent will feel weak.
 # 7. Interrupt, Break, Divert the Dispute
 Finally, it may be not his role to give his opinion on that. Then find a way to avoid this discussion. 
 
->I have something much more important to discuss with you. There's a weird bug in production."
+>I have something much more important to discuss with you. There's a weird bug in production.
 
 # 8. Claim Victory Despite Defeat
 Pretend you don't understand the conclusion if it's a defeat. Thank your opponent: 
@@ -54,7 +54,7 @@ Pretend you don't understand the conclusion if it's a defeat. Thank your opponen
 
 Some arguments are absurd, aren't they? Arthur Schopenhauer thought life was absurd. These 8 ways of winning might seem illogical or manipulative. I see them as entertaining. 
 
-I often wonder: why would the great Schopenhauer answer if he was in my place? It is sometimes inspiring. Most of the time, it is at least funny.
+I sometimes wonder: why would the great Schopenhauer answer if he was in my place? It can be inspiring. Most of the time, it is at least funny.
 
 I strongly recommend you to read *The art of being right*. It's delightful.
 
