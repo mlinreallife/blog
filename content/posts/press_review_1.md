@@ -30,6 +30,11 @@ The failures in data science are silent. This paper tests different solutions to
 
 ![Failing loudly process](/failing_loudly_paper.png)
 
+## [The art of being right in your job]({{< ref "/post/the_art_of_being_right.md" >}})
+This week, I published an article about *The Art of being right* written by Arthur Schopenhauer.
+
+Have you ever struggled to explain why automated tests are important (or anything like that) to very reluctant and dogmatic but influential people such as well-established but very old school architects for instance? This book can help you with that.
+
 # French resources
 
 ## [Etre freelance c'est être entrepreneur (A freelancer is an entrepreneur)](https://smartlink.ausha.co/punkindev/episode-10-etre-freelance-c-est-etre-entrepreneur)
