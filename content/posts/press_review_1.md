@@ -1,7 +1,7 @@
 ---
 title: "Press review 1: Data versioning, tips for Pytest, freelancing, etc"
-date: 2020-11-09T07:01:10+02:00
-draft: true
+date: 2020-11-12T07:01:10+02:00
+draft: false
 ---
 
 Machine learning in real life is hard. Finding your way into all the methods and tools is not easy.
@@ -26,11 +26,11 @@ A short but useful article about tips to do tests with Pytest for Python:
 
 ## [Failing Loudly: An Empirical Study of Methods for Detecting Dataset Shift](https://arxiv.org/abs/1810.11953)
 
-The failures in data science are silent. This paper tests different solutions to get a practical way to fail loudly by doing data drift detection. The library *Alibi-detect* is based on this one.
+Failures in data science are silent. This paper tests different solutions to get a practical way to fail loudly by doing data drift detection. The library *Alibi-detect* is based on this one.
 
-![Failing loudly process](/failing_loudly_paper.png)
+![Failing loudly process](/failing_loudly_paper.PNG)
 
-## [The art of being right in your job]({{< ref "/post/the_art_of_being_right.md" >}})
+## [The art of being right in your job]({{< ref "/posts/the_art_of_being_right.md" >}})
 This week, I published an article about *The Art of being right* written by Arthur Schopenhauer.
 
 Have you ever struggled to explain why automated tests are important (or anything like that) to very reluctant and dogmatic but influential people such as well-established but very old school architects for instance? This book can help you with that.
@@ -42,7 +42,7 @@ Have you ever struggled to explain why automated tests are important (or anythin
 Si vous êtes freelance ou que vous projetez de le devenir, cet épisode est pour vous.
 Même si vous n'êtes pas freelance, vous apprendrez quelques astuces pour négocier votre futur salaire.
 
-If you're a freelancer or plan to do it, this episode is for you.
+If you're a freelancer or plan to be one, this episode is for you.
 Even if you're not a freelancer, you will learn some tips to negotiate your future salary.
 
 
