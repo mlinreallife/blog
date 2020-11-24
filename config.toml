@@ -35,7 +35,7 @@ canonifyURLs = true
 [[menu.main]]
     name = "Press reviews"
     identifier = "press_reviews"
-    weight = 300
+    weight = 200
     url = "/press_reviews/"
 [[menu.main]]
     name = "About"

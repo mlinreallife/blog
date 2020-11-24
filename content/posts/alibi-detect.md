@@ -1,7 +1,7 @@
 ---
 title: "Alibi-detect for data drift detection"
-date: 2020-09-18T17:01:10+02:00
-draft: true
+date: 2020-11-23T08:01:10+02:00
+draft: false
 ---
 
 I've recently tested *Alibi-detect*. 
