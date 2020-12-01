@@ -1,7 +1,7 @@
 ---
 title: "Press review 2: Unit tests for data, Data + AI summit, etc"
-date: 2020-11-09T07:01:10+02:00
-draft: true
+date: 2020-11-26T07:01:10+02:00
+draft: false
 ---
 
 Machine learning in real life is hard. Finding your way into all the methods and tools is not easy.
@@ -30,7 +30,7 @@ Key takeaways:
 
 Some videos are available [here](https://www.youtube.com/c/Databricks/search?query=data%20time%20travel).
 
-# [Model drift or how the pandemic killed thousands of predictive systems]({{< ref "/post/drift.md" >}})
+# [Model drift or how the pandemic killed thousands of predictive systems]({{< ref "/posts/drift.md" >}})
 
 Last week, I published a quick introduction to *Model drift*.
 
