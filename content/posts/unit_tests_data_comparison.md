@@ -10,9 +10,9 @@ Recently, I benchmarked different tools to do unit tests for data. Here are the 
 
 |                       | Pydeequ                                           | Drunken Data Quality | Dataframes rule engine | Great Expectations | Apache Griffin                |
 |-----------------------|---------------------------------------------------|----------------------|------------------------|--------------------|-------------------------------|
-| Language              | Python                                            | Python               | Scala                  | Python             | Json, outside of code         |
-| Compatible Spark 3    | No                                                | No                   | Not tested             | Yes                | X                             |
-| Compatible Databricks | Unknown error. Pydeequ never tested in Databricks | Not tested           | Not tested             | Yes                | Not tested. Need Hive to work |
+| **Language**              | Python                                            | Python               | Scala                  | Python             | Json, outside of code         |
+| **Compatible Spark 3**    | No                                                | No                   | Not tested             | Yes                | X                             |
+| **Compatible Databricks** | Unknown error. Pydeequ never tested in Databricks | Not tested           | Not tested             | Yes                | Not tested. Need Hive to work |
 
 # Pydeequ
 
@@ -29,7 +29,7 @@ You have to dedicate a special infrastructure and project to work with it.
 
 This project is developed by Databricks but only for Scala users.
 
-Note that a new project named *Delta expectations* from Databricks is supposed to be released to do unit tests for data.
+Note that a new project named *Delta expectations* from Databricks is supposed to be released soon to do unit tests for data.
 
 # Drunken Data Quality
 
@@ -37,6 +37,10 @@ As this project is not compatible with Spark 3, I didn't test it.
 
 # Great Expectations
 
-Great Expectations is able to check all my checkboxes: Python, Spark 3 and Databricks.
+Great Expectations can check all my checkboxes: Python, Spark 3, and Databricks.
+Besides, the support is excellent.
 
-My only problem is that some helpful features take time to be executed.
+My only problem is that some helpful features (profiling) take time to be executed.
+
+
+Thank you for reading. Feel free to contact me on [Twitter](https://twitter.com/saby_nastasia) if you want to discuss that.

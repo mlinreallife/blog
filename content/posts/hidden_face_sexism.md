@@ -30,7 +30,7 @@ In these kinds of situations, I can only have suspicions. If you express your su
 
 What can you do in this case?
 
-I have no idea :(. 
+I have no idea :(.   
 
 In a more general way, I would advise this though:
 
