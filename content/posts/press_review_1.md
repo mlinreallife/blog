@@ -1,11 +1,14 @@
 ---
+twitter:
+- image: "data_versioning.png"
 title: "Issue 1: Data versioning, tips for Pytest, freelancing, etc"
+description: "First issue"
 date: 2020-11-12T07:01:10+02:00
 draft: false
 ---
 
-Machine learning in real life is hard. Finding your way into all the methods and tools is not easy.
-Here you will find some resources that inspired me recently to do data versioning, tests or data drift detection.
+Machine learning in real life is hard.  Finding your way into all the methods and tools is not easy.
+Here you will find some resources that me recently to do data versioning, tests or data drift detection.
 
 # English resources
 
