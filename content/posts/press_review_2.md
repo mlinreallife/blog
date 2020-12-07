@@ -1,5 +1,5 @@
 ---
-title: "Press review 2: Unit tests for data, Data + AI summit, etc"
+title: "Issue 2: Unit tests for data, Data + AI summit, etc"
 date: 2020-11-26T07:01:10+02:00
 draft: false
 ---

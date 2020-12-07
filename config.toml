@@ -33,13 +33,18 @@ canonifyURLs = true
     identifier = "posts"
     url = "/posts/"
 [[menu.main]]
-    name = "Press reviews"
-    identifier = "press_reviews"
+    name = "Newsletter"
+    identifier = "newsletter"
     weight = 200
-    url = "/press_reviews/"
+    url = "/newsletter/"
 [[menu.main]]
     name = "About"
     identifier = "about"
     weight = 300
     url = "/about/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+        unsafe = true
 

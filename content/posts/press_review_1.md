@@ -1,5 +1,5 @@
 ---
-title: "Press review 1: Data versioning, tips for Pytest, freelancing, etc"
+title: "Issue 1: Data versioning, tips for Pytest, freelancing, etc"
 date: 2020-11-12T07:01:10+02:00
 draft: false
 ---

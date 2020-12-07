@@ -12,11 +12,11 @@ TL;DR: Very often, people don't directly insult you because you're a woman. They
 
 Once, I had a colleague, a man. We were professionnally and technically on the same page. And yet, there were frictions between us. My opinion was not always valued. I found the situation weird. I wasn't able to understand the problem.
 
-Some months after, this one apologised saying that he had been rude to me because I was a woman and had realised it was wrong behaviour. I finally got the key to our bad relations.
+Some months after, this colleague apologised saying that he had been rude to me because I was a woman and had realised it was wrong behaviour. I finally got the key to our bad relations.
 
 The problem is most of the time, sexist people don't claim aloud: "I'm a sexist person. I won't consider you because you're a woman".
 
-In reality, I have experienced situations when people openly explain that they don't want to work with you because you're a woman. I hate that but the truth is that it's easier to deal with that than to deal with unspoken or even unconscious sexism.
+In reality, I have experienced other situations when people openly explain that they don't want to work with you because you're a woman. I hate saying that but the truth is that it's easier to deal with this situation than to deal with unspoken or even unconscious sexism.
 
 **The problem is that sexist people are not always able to realise they are. Misogyny is so unconscious and deeply rooted in our societies**.
 
@@ -30,7 +30,7 @@ In these kinds of situations, I can only have suspicions. If you express your su
 
 What can you do in this case?
 
-I have no idea :(.   
+I have no idea :worried:.   
 
 In a more general way, I would advise this though:
 
