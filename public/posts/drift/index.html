@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.74.3" />
+
+    
+    
+    
+
+<title>Model drift or how the pandemic killed thousands of predictive systems • Machine learning in real life</title>
+<meta name="description" content="" />
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta name="application-name" content="Model drift or how the pandemic killed thousands of predictive systems | Machine learning in real life" />
+<meta property="og:site_name" content="" />
+<meta itemprop="name" content="Model drift or how the pandemic killed thousands of predictive systems | Machine learning in real life" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Model drift or how the pandemic killed thousands of predictive systems"/>
+<meta name="twitter:description" content="In a very near world, machine learning was more and more used. All of a sudden, a pandemic stroke this world. Machine learning crashed.
+Why does machine learning crash in such a period? Machine learning learns patterns from data at a certain period of time. We evaluate and tune the performance of a predictive system at this certain period of time. But, only the change is permanent.
+With Covid-19, the lockdowns, the recession, the curfews, everything has changed."/>
+
+<meta property="og:title" content="Model drift or how the pandemic killed thousands of predictive systems" />
+<meta property="og:description" content="In a very near world, machine learning was more and more used. All of a sudden, a pandemic stroke this world. Machine learning crashed.
+Why does machine learning crash in such a period? Machine learning learns patterns from data at a certain period of time. We evaluate and tune the performance of a predictive system at this certain period of time. But, only the change is permanent.
+With Covid-19, the lockdowns, the recession, the curfews, everything has changed." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mlinreallife.github.io/posts/drift/" />
+<meta property="article:published_time" content="2020-11-16T08:01:10+02:00" />
+<meta property="article:modified_time" content="2020-11-24T08:41:12+01:00" />
+
+<base href="https://mlinreallife.github.io/posts/drift/">
+<link rel="canonical" href="https://mlinreallife.github.io/posts/drift/" itemprop="url" />
+<meta name="url" content="https://mlinreallife.github.io/posts/drift/" />
+<meta name="twitter:url" content="https://mlinreallife.github.io/posts/drift/" />
+<meta property="og:url" content="https://mlinreallife.github.io/posts/drift/" />
+<meta property="og:locale" content="en">
+<meta name="language" content="English">
+
+
+<meta itemprop="image" content="https://mlinreallife.github.io" />
+<meta property="og:image" content="https://mlinreallife.github.io" />
+<meta name="twitter:image" content="https://mlinreallife.github.io" />
+<meta name="twitter:image:src" content="https://mlinreallife.github.io" />
+
+<meta property="og:updated_time" content=2020-11-24T08:41:12&#43;0100 />
+Sitemap & RSS Feed Tags
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://mlinreallife.github.iositemap.xml" />
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="https://mlinreallife.github.io/scss/hyde-hyde.3081c4981fb69a2783dd36ecfdd0e6ba7a158d4cbfdd290ebce8f78ba0469fc6.css" integrity="sha256-MIHEmB&#43;2mieD3Tbs/dDmunoVjUy/3SkOvOj3i6BGn8Y=">
+
+
+<link rel="stylesheet" href="https://mlinreallife.github.io/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://mlinreallife.github.io/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="https://mlinreallife.github.io/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="https://mlinreallife.github.io">Machine learning in real life</a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/f1e09bf0b41e5559ff4623401378a1f8?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         Nastasia Saby 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Machine learning in real life</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="https://mlinreallife.github.io/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="https://mlinreallife.github.io/newsletter/">
+						<span>Newsletter</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="https://mlinreallife.github.io/about/">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/saby_nastasia" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Model drift or how the pandemic killed thousands of predictive systems</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Nov 16, 2020
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 2 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>In a very near world, machine learning was more and more used.
+All of a sudden, a pandemic stroke this world. Machine learning crashed.</p>
+<h1 id="why-does-machine-learning-crash-in-such-a-period">Why does machine learning crash in such a period?</h1>
+<p>Machine learning learns patterns from data at a certain period of time. We evaluate and tune the performance of a predictive system at this certain period of time.
+But, only the change is permanent.</p>
+<p>With Covid-19, the lockdowns, the recession, the curfews, everything has changed. Maybe not everything, but enough to make machine learning systems crash. People don&rsquo;t buy the same products. People don&rsquo;t discuss the same topics.</p>
+<p>The change due to the pandemic is sudden. It is called an abrupt drift. But, in reality, gradual drift can also happen. For instance, the word <em>troll</em> has changed a lot. In the beginning, it was often related to J.R Tolkien. Now, it can refer to a joke. This change was smooth.</p>
+<h1 id="different-terminologies-of-drift">Different terminologies of drift</h1>
+<p>This situation refers to the <em>model drift</em> concept. Different kinds of drift exist.</p>
+<p><em>Model drift</em> is when you observe your model drifting. But, it&rsquo;s always because of the data. Then, you can also observe your data drifting. <em>Data drift</em> is the name for this concept.</p>
+<p>You can observe model drift during retraining and when comparing your predictions with the real values. To do that, you need to track the results of your retraining, store the given predictions and build a comparison with the real outcomes.</p>
+<p>To observe data drift, you must monitor your data after having ingested them.</p>
+<p>I would recommend starting by monitoring model drift by doing retraining. Be aware that it might be not enough. You will certainly need to recalibrate your model sometimes. Then, compare your results with the real ones and do data drift. If you set up retraining once a month, you could realise that you need to retrain more often. To realise that, you need to see the real results or if not possible evaluate the data drift.</p>
+<p>Data drift is also a way to understand better why there&rsquo;s a model drift. It is a help for investigation.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Because of the pandemic, many people have started realising the importance of <em>model drift</em> and <em>data drift</em>. However, these two concepts are crucial even during normal times if you want your predictive system to stay efficient.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="https://mlinreallife.github.io/posts/press_review_1/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Issue 1: Data versioning, tips for Pytest, freelancing, etc</span>
+    </a>
+    
+    
+    <a href="https://mlinreallife.github.io/posts/alibi-detect/" class="navigation-next">
+      <span class="navigation-tittle">Alibi-detect for data drift detection</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>
