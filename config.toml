@@ -27,7 +27,7 @@ canonifyURLs = true
     author="Nastasia Saby"
     description="Nastasia Saby"
     mainSections = ["posts"]
-    images = ["data_versioning.png"]
+    images = ["bird.jpg"]
     keywords = ["machine learning", "models", "data science", "production", "engineering", "ml"]
 
     ## Main Menu
