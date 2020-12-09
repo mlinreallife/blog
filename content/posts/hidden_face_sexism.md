@@ -3,6 +3,7 @@ title: "The hidden face of sexism"
 date: 2020-12-07T07:01:10+02:00
 draft: false
 images: ["bird.jpg"]
+description: Have you ever been discriminated against? I have. Have you ever been discriminated against without being sure of that? I have. A story about unconscious sexism in IT
 ---
 
 Have you ever been discriminated against? I have. Have you ever been discriminated against without being sure of that? I have.

@@ -2,6 +2,7 @@
 title: "Issue 2: Unit tests for data, Data + AI summit, etc"
 date: 2020-11-26T07:01:10+02:00
 draft: false
+description: Machine learning in real life is hard. Finding your way into all the methods and tools is not easy. Here you will find some resources that inspired me recently to do unit tests for data and productionalize models.
 ---
 
 Machine learning in real life is hard. Finding your way into all the methods and tools is not easy.

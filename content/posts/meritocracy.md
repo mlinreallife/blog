@@ -2,6 +2,7 @@
 title: "Is meritocracy possible? Is meritocracy acceptable? Answers from the book 'The rise of the meritocracy'"
 date: 2020-08-27T06:11:10+02:00
 draft: false
+description: Some times ago, I read a book about Agile. I found this reading inspiring. However, an idea struck me some teams prefer hierarchy and some others meritocracy.
 ---
 
 Some times ago, I read a book about Agile. I found this reading inspiring. However, an idea struck me: some teams prefer hierarchy and some others meritocracy.

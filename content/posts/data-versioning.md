@@ -2,6 +2,8 @@
 title: "Different ways to do data versioning"
 date: 2020-09-15T06:11:10+02:00
 draft: false
+description: I have experienced two ways of doing data versioning and would like to share it with you.
+
 ---
 
 I have experienced two ways of doing data versioning and would like to share it with you.

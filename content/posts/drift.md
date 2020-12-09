@@ -2,6 +2,7 @@
 title: "Model drift or how the pandemic killed thousands of predictive systems"
 date: 2020-11-16T08:01:10+02:00
 draft: false
+description: In a very near world, machine learning was more and more used. All of a sudden, a pandemic stroke this world. Machine learning crashed.
 ---
 
 In a very near world, machine learning was more and more used.

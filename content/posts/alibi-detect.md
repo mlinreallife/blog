@@ -2,6 +2,7 @@
 title: "Alibi-detect for data drift detection"
 date: 2020-11-23T08:01:10+02:00
 draft: false
+description: I've recently tested Alibi-detect. If you're looking for a free and open source tool to detect data drift, this one is for you.
 ---
 
 I've recently tested *Alibi-detect*. 

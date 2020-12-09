@@ -2,6 +2,7 @@
 title: "DataOps and MLOps: what is the difference between these two concepts?"
 date: 2020-10-22T19:01:10+02:00
 draft: false
+description: A quick article to explain the difference between two relatively new concepts MLOps and DataOps.
 ---
 
 A quick article to explain the difference between two relatively new concepts: MLOps and DataOps.

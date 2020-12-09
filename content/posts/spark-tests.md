@@ -2,6 +2,7 @@
 title: "How do I test with Apache Spark?"
 date: 2019-07-30T17:01:10+02:00
 draft: false
+description: If you are wondering how you can test with Apache Spark. Or if you are curious about how other projects deal with tests, this article is for you. I will show examples in Scala with Specs2 but the global idea can work with any language or framework test.
 ---
 
 If you are wondering how you can test with Apache Spark. Or if you are curious about how other projects deal with tests, this article is for you. I will show examples in Scala with Specs2 but the global idea can work with any language or framework test.

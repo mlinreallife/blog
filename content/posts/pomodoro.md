@@ -2,6 +2,7 @@
 title: "Stay focus with Pomodoro"
 date: 2020-10-18T17:01:10+02:00
 draft: false
+description: Pomodoro might be an overrated technique. And yet, I can't help thinking it might be a good idea to talk about that. I would like to share my point of view and the way I work with this method. Let's go.
 ---
 
 Pomodoro might be an overrated technique. And yet, I can't help thinking it might be a good idea to talk about that. I would like to share my point of view and the way I work with this method. Let's go.

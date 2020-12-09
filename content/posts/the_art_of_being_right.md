@@ -2,6 +2,7 @@
 title: "The art of being right in your job"
 date: 2020-11-09T07:01:10+02:00
 draft: false
+description: Have you ever struggled to explain why automated tests are important (or why refactoring should be a natural step when developing, or anything like that) to very reluctant and dogmatic but influential people such as well-established but very old school architects for instance?
 ---
 
 **Have you ever struggled to explain why automated tests are important (or why refactoring should be a natural step when developing, or anything like that) to very reluctant and dogmatic but influential people such as well-established but very old school architects for instance?**

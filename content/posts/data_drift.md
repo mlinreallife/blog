@@ -2,6 +2,7 @@
 title: "Data drift monitoring: hypothesis tests or statistical distances?"
 date: 2020-09-30T13:01:10+02:00
 draft: false
+description: Today, I would like to talk about a tough and important subject in my opinion data drift monitoring.
 ---
 
 Today, I would like to talk about a tough and important subject in my opinion: data drift monitoring.

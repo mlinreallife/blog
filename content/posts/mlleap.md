@@ -2,6 +2,7 @@
 title: "Getting started with MLeap and Scikit-Learn"
 date: 2020-05-27T17:01:10+02:00
 draft: false
+description: MLeap, a library to serialize your model.
 ---
 
 > Deploying machine learning data pipelines and algorithms should not be a time-consuming or difficult task. MLeap allows data scientists and engineers to deploy machine learning pipelines from Spark and Scikit-learn to a portable format and execution engine <cite>(MLeap documentation)</cite>.

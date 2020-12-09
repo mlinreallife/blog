@@ -20,6 +20,9 @@ canonifyURLs = true
   gravatar = "nastasia.saby@gmail.com"
   twitter = "@saby_nastasia"
 
+[params.meta]
+    keywords = "nastasia saby, nastasia, saby, engineer, data, deep learning, shallow learning, learning, machine, tests, unit, people, analytics, book, career, concepts, data science, machine learning, pomodoro, issue, failure, data drift, model drift, drift, mlops, dataops, devops, sexism, unit tests, improve, mistakes"
+
 [Social]
     twitter = "saby_nastasia"
 

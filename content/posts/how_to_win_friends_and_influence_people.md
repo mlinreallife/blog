@@ -2,6 +2,7 @@
 title: "How to win friends and influence people: a disappointing reading"
 date: 2020-11-02T07:01:10+02:00
 draft: false
+description: If human relationships are more important than technical methods and tools in our jobs, can I learn something from a book like *How to win friends and influence people*? This one was published in 1936 and written by Dale Carnegie. It is a self-help book.
 ---
 If human relationships are more important than technical methods and tools in our jobs, can I learn something from a book like *How to win friends and influence people*? This one was published in 1936 and written by Dale Carnegie. It is a self-help book.
 

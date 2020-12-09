@@ -2,6 +2,7 @@
 title: "Four mistakes I've done in my career"
 date: 2020-12-01T07:01:10+02:00
 draft: false
+description: Most of the time, as data scientists or developers, we speak about our successes. Today, I would like to deal with the mistakes I've done in my career. Sometimes mistakes can be a valuable share. I've chosen four ones.
 ---
 
 Most of the time, as data scientists or developers, we speak about our successes. Today, I would like to deal with the mistakes I've done in my career. Sometimes mistakes can be a valuable share.

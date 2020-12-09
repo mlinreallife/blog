@@ -1,5 +1,6 @@
 +++
 title = "Newsletter"
+description = "Newsletter to learn about data science in real life and machine learning in production"
 +++
 
 <!-- Begin Mailchimp Signup Form -->

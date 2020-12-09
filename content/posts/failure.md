@@ -2,6 +2,7 @@
 title: "Failure is not what you think it is"
 date: 2020-10-26T18:01:10+02:00
 draft: false
+description: In some interviews, some people enjoy asking what was your best failure in your career? I used to hate this question. Failure is just failure, something that should not arrive at any cost. After some readings, I've changed my mind.
 ---
 
 In some interviews, some people enjoy asking: what was your best failure in your career? I used to hate this question. Failure is just failure, something that should not arrive at any cost. After some readings, I've changed my mind.

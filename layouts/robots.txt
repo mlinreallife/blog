@@ -2,4 +2,6 @@ User-agent: Twitterbot
 Disallow:
 
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://mlinreallife.github.io/sitemap.xml
