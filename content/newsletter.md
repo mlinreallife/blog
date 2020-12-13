@@ -36,3 +36,5 @@ Previous issues:
 [Issue 1: Data versioning, tips for Pytest, freelancing, etc (12th of November, 2020)]({{< ref "/posts/press_review_1.md" >}})
 
 [Issue 2: Unit tests for data, Data + AI summit, etc (26th of November, 2020)]({{< ref "/posts/press_review_2.md" >}})
+
+[Issue 3: Feature store, weird chatbot, XGboost for Spark and Airflow in Amazon (10th of Decemeber, 2020)]({{< ref "/posts/press_review_3.md" >}})
