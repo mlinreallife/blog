@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Machine learning in real life</title>
+    <link>https://mlinreallife.github.io/posts/</link>
+    <description>Recent content in Posts on Machine learning in real life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sun, 13 Dec 2020 17:01:10 +0200</lastBuildDate>
+    
+	<atom:link href="https://mlinreallife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A bug in data science</title>
+      <link>https://mlinreallife.github.io/posts/bug_in_data_science/</link>
+      <pubDate>Sun, 13 Dec 2020 17:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/bug_in_data_science/</guid>
+      <description>TL;DR:
+Bugs in predictive systems are most of the time silent. Don&amp;rsquo;t expect your users to raise their hands saying something is wrong. That won&amp;rsquo;t happen.
+That&amp;rsquo;s life!
+Use monitoring instead of waiting from your end users!
+The story Let&amp;rsquo;s suppose you train your model in production on the 10th of November, you have an AUC of 0.81.
+The days after, you do some modifications in the data preparation and around the model.</description>
+    </item>
+    
+    <item>
+      <title>Issue 3: Feature store, weird chatbot, XGboost for Spark and Airflow in Amazon</title>
+      <link>https://mlinreallife.github.io/posts/press_review_3/</link>
+      <pubDate>Thu, 10 Dec 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_3/</guid>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           This week, I think I&amp;rsquo;ve finally understood what a feature store is (thanks to Tecton).</description>
+    </item>
+    
+    <item>
+      <title>The hidden face of sexism</title>
+      <link>https://mlinreallife.github.io/posts/hidden_face_sexism/</link>
+      <pubDate>Mon, 07 Dec 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/hidden_face_sexism/</guid>
+      <description>Have you ever been discriminated against? I have. Have you ever been discriminated against without being sure of that? I have.
+TL;DR: People don&amp;rsquo;t always directly insult you because you&amp;rsquo;re a woman. They just don&amp;rsquo;t consider you. It&amp;rsquo;s harmful and must be taken into consideration to improve our jobs and lives.
+Sexism is vicious because it doesn&amp;rsquo;t always tell its name Once, I had a colleague, a man. We were intellectually and technically on the same page.</description>
+    </item>
+    
+    <item>
+      <title>Four mistakes I&#39;ve done in my career</title>
+      <link>https://mlinreallife.github.io/posts/mistakes/</link>
+      <pubDate>Tue, 01 Dec 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/mistakes/</guid>
+      <description>Most of the time, as data scientists or developers, we speak about our successes. Today, I would like to deal with the mistakes I&amp;rsquo;ve done in my career. Sometimes mistakes can be a valuable share. I&amp;rsquo;ve chosen four ones.
+1. Invoices in production Once, I created invoices in production. I hadn&amp;rsquo;t realised I was working in the production environment and wanted to debug something directly into the application.
+Oops. I was livid.</description>
+    </item>
+    
+    <item>
+      <title>Issue 2: Unit tests for data, Data &#43; AI summit, etc</title>
+      <link>https://mlinreallife.github.io/posts/press_review_2/</link>
+      <pubDate>Thu, 26 Nov 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_2/</guid>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           Machine learning in real life is hard.</description>
+    </item>
+    
+    <item>
+      <title>Unit tests for data</title>
+      <link>https://mlinreallife.github.io/posts/resources/unit_tests_for_data/</link>
+      <pubDate>Tue, 24 Nov 2020 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/resources/unit_tests_for_data/</guid>
+      <description>Unit tests for data? Strange concept maybe. This is why I really wanted to make a video to quickly present that to you.
+  I realise there are many things to improve in this first video. I&amp;rsquo;ll improve that over time.
+Thank you for reading. Feel free to contact me on Twitter if you want to discuss that.</description>
+    </item>
+    
+    <item>
+      <title>Alibi-detect for data drift detection</title>
+      <link>https://mlinreallife.github.io/posts/alibi-detect/</link>
+      <pubDate>Mon, 23 Nov 2020 08:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/alibi-detect/</guid>
+      <description>I&amp;rsquo;ve recently tested Alibi-detect. If you&amp;rsquo;re looking for a free and open source tool to detect data drift, this one is for you.
+Let&amp;rsquo;s get an overview of what is inside and how you can use it.
+The assumptions The data drift detection of the library is based on a paper called Failing Loudly: An Empirical Study of Methods for Detecting Dataset Shift and written by Stephan Rabanser, Stephan Günnemann, and Zachary C.</description>
+    </item>
+    
+    <item>
+      <title>Model drift or how the pandemic killed thousands of predictive systems</title>
+      <link>https://mlinreallife.github.io/posts/drift/</link>
+      <pubDate>Mon, 16 Nov 2020 08:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/drift/</guid>
+      <description>In a very near world, machine learning was more and more used. All of a sudden, a pandemic stroke this world. Machine learning crashed.
+Why does machine learning crash in such a period? Machine learning learns patterns from data at a certain period of time. We evaluate and tune the performance of a predictive system at this certain period of time. But, only the change is permanent.
+With Covid-19, the lockdowns, the recession, the curfews, everything has changed.</description>
+    </item>
+    
+    <item>
+      <title>Issue 1: Data versioning, tips for Pytest, freelancing, etc</title>
+      <link>https://mlinreallife.github.io/posts/press_review_1/</link>
+      <pubDate>Thu, 12 Nov 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/press_review_1/</guid>
+      <description>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */  Sign up for a bi-weekly newsletter Learn about data science in real life and machine learning in production * indicates required Email Address *           Machine learning in real life is hard.</description>
+    </item>
+    
+    <item>
+      <title>The art of being right in your job</title>
+      <link>https://mlinreallife.github.io/posts/the_art_of_being_right/</link>
+      <pubDate>Mon, 09 Nov 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/the_art_of_being_right/</guid>
+      <description>Have you ever struggled to explain why automated tests are important (or why refactoring should be a natural step when developing, or anything like that) to very reluctant and dogmatic but influential people such as well-established but very old school architects for instance?
+I&amp;rsquo;m sure you already have experienced that and will maybe face other situations like that in the future.
+How can we find new arguments to help ourselves or at least have fun in these hard discussions?</description>
+    </item>
+    
+    <item>
+      <title>How to win friends and influence people: a disappointing reading</title>
+      <link>https://mlinreallife.github.io/posts/how_to_win_friends_and_influence_people/</link>
+      <pubDate>Mon, 02 Nov 2020 07:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/how_to_win_friends_and_influence_people/</guid>
+      <description>If human relationships are more important than technical methods and tools in our jobs, can I learn something from a book like How to win friends and influence people? This one was published in 1936 and written by Dale Carnegie. It is a self-help book.
+Many principles are included in the book Dale Carnegie advises about how to handle people, win friends, influence people, and become a leader.
+The overall idea is to avoid arguments and criticize people.</description>
+    </item>
+    
+    <item>
+      <title>Failure is not what you think it is</title>
+      <link>https://mlinreallife.github.io/posts/failure/</link>
+      <pubDate>Mon, 26 Oct 2020 18:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/failure/</guid>
+      <description>In some interviews, some people enjoy asking: what was your best failure in your career? I used to hate this question. Failure is just failure, something that should not arrive at any cost. After some readings, I&amp;rsquo;ve changed my mind.
+Before, I was very afraid of failures. I hated them. As a consequence, I did my best to avoid them. I realised that failures might be more valuable than I thought at the beginning.</description>
+    </item>
+    
+    <item>
+      <title>DataOps and MLOps: what is the difference between these two concepts?</title>
+      <link>https://mlinreallife.github.io/posts/mlops_vs_dataops/</link>
+      <pubDate>Thu, 22 Oct 2020 19:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/mlops_vs_dataops/</guid>
+      <description>A quick article to explain the difference between two relatively new concepts: MLOps and DataOps.
+DataOps  DataOps is an automated, process-oriented methodology, used by analytic and data teams, to improve the quality and reduce the cycle time of data analytics. (Wikipedia)
+ What is inside?  Methods from DevOps Deployment of data pipelines such as data extraction and data transformation Monitoring for data pipelines  Target Data teams such as data analytics and data engineering teams.</description>
+    </item>
+    
+    <item>
+      <title>Stay focus with Pomodoro</title>
+      <link>https://mlinreallife.github.io/posts/pomodoro/</link>
+      <pubDate>Sun, 18 Oct 2020 17:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/pomodoro/</guid>
+      <description>Pomodoro might be an overrated technique. And yet, I can&amp;rsquo;t help thinking it might be a good idea to talk about that. I would like to share my point of view and the way I work with this method. Let&amp;rsquo;s go.
+What is Pomodoro? Pomodoro is a technique that helps you to stay focus. The steps are:
+ Set a timer of 25 minutes. Work until the bell rings. Take a short break (3 to 5 minutes) Repeat  After 4 iterations, take a longer break (15 to 30 minutes).</description>
+    </item>
+    
+    <item>
+      <title>Data drift monitoring: hypothesis tests or statistical distances?</title>
+      <link>https://mlinreallife.github.io/posts/data_drift/</link>
+      <pubDate>Wed, 30 Sep 2020 13:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/data_drift/</guid>
+      <description>Today, I would like to talk about a tough and important subject in my opinion: data drift monitoring.
+Data drift monitoring is critical. Data drift leads to model performance decrease. At the same time, IMHO, it&amp;rsquo;s hard to get a satisfactory solution for at least two reasons:
+ It&amp;rsquo;s challenging to develop a custom solution. It&amp;rsquo;s laborious to know if it is preferable to compute statistical distances or try to reject a hypothesis test with a p-value?</description>
+    </item>
+    
+    <item>
+      <title>Doing web without JavaScript, HTML nor CSS for data science</title>
+      <link>https://mlinreallife.github.io/posts/streamlit/</link>
+      <pubDate>Fri, 18 Sep 2020 17:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/streamlit/</guid>
+      <description>I&amp;rsquo;ve recently played with a tool named Streamlit. I wanted to share this experience with you.
+If you want to build a simple web page to expose your models using only Python, this library is for you.
+Streamlit was launched the first of october in 2019. You can get more information in the launch blog post.
+Here is the traditional hello world:
+import streamlit as st st.write(&amp;#34;Hello world!&amp;#34;) With that, you get this:</description>
+    </item>
+    
+    <item>
+      <title>Different ways to do data versioning</title>
+      <link>https://mlinreallife.github.io/posts/data-versioning/</link>
+      <pubDate>Tue, 15 Sep 2020 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/data-versioning/</guid>
+      <description>I have experienced two ways of doing data versioning and would like to share it with you.
+It was always in a batch context to do supervised or unsupervised learning.
+What is data versioning? Data versioning is about keeping snapshots of the state of your data. This way, you can see the state of the data at certain periods of time.
+Why doing data versioning? There are many benefits:
+  Rollbacks and replays on a specific date.</description>
+    </item>
+    
+    <item>
+      <title>Do data scientists act crazy?</title>
+      <link>https://mlinreallife.github.io/posts/data-scientists-crazy/</link>
+      <pubDate>Fri, 28 Aug 2020 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/data-scientists-crazy/</guid>
+      <description>I used to be a web back-end developer. The first time, I saw code from a data scientist, I was shocked. For me it was a mess. The quality was poor in comparison of what I was used to doing in software development. There was almost no test. I was unpleasantly surprised to see that sometimes there was no versioning system.
+Seeing that, I was sure: data scientists act crazy. Now, I am a data scientist.</description>
+    </item>
+    
+    <item>
+      <title>Is meritocracy possible? Is meritocracy acceptable? Answers from the book &#39;The rise of the meritocracy&#39;</title>
+      <link>https://mlinreallife.github.io/posts/meritocracy/</link>
+      <pubDate>Thu, 27 Aug 2020 06:11:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/meritocracy/</guid>
+      <description>Some times ago, I read a book about Agile. I found this reading inspiring. However, an idea struck me: some teams prefer hierarchy and some others meritocracy.
+This is not the first time I see the word meritocracy used in software development or in data science. Sometimes, I also see articles bringing the idea that Agile enhances meritocracy.
+But what is meritocracy? Is it something desirable?
+Back to the origin Where does this word come from ?</description>
+    </item>
+    
+    <item>
+      <title>Getting started with MLeap and Scikit-Learn</title>
+      <link>https://mlinreallife.github.io/posts/mlleap/</link>
+      <pubDate>Wed, 27 May 2020 17:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/mlleap/</guid>
+      <description>Deploying machine learning data pipelines and algorithms should not be a time-consuming or difficult task. MLeap allows data scientists and engineers to deploy machine learning pipelines from Spark and Scikit-learn to a portable format and execution engine (MLeap documentation).
+ MLeap helps you to serialize and deserialize your model/pipeline. It exists for Spark, Scikit-Learn and Tensorflow. You can use it with Scikit-Learn but the documentation is quite dry for the moment.</description>
+    </item>
+    
+    <item>
+      <title>How do I test with Apache Spark?</title>
+      <link>https://mlinreallife.github.io/posts/spark-tests/</link>
+      <pubDate>Tue, 30 Jul 2019 17:01:10 +0200</pubDate>
+      
+      <guid>https://mlinreallife.github.io/posts/spark-tests/</guid>
+      <description>If you are wondering how you can test with Apache Spark. Or if you are curious about how other projects deal with tests, this article is for you. I will show examples in Scala with Specs2 but the global idea can work with any language or framework test.
+What do we need to test with Apache Spark? This is the first problem. Suppose that we have data about diamonds sales. We want to extract only one field (the diamond color) from all the information.</description>
+    </item>
+    
+  </channel>
+</rss>
