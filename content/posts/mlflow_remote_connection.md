@@ -2,10 +2,12 @@
 title: "How can you connect to MLFlow registry remotely?"
 date: 2020-09-18T17:01:10+02:00
 draft: true
+description: MLFlow is helpful when you are looking for reproducibility and MLOps. This tutorial will lead you to connect to MLFlow model registry from outside.
 ---
 
 TL;DR:
-MLFlow is a tool to do model versioning. You can track your metrics, your parameters, log your model, register it in a *None*, *Staging* or *Production* stage. You can retrieve your model and all the associated informated using MLFlow.
+MLFlow is a tool to do model versioning. You can track your metrics, your parameters, log your model, register it in a *None*, *Staging* or *Production* stage. You can retrieve your model and all the associated information using MLFlow.
+
 It goes without saying that it's helpful when you are looking for reproducibility and MLOps. And who is not looking for reproducibility and MLOps?
 
 But, I've recently experienced difficulties connecting to MLFlow registry from outside. This is why I've decided to write a small tutorial about that. This tutorial will blow your mind ... or maybe will just help you a bit.
