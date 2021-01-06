@@ -1,7 +1,8 @@
 ---
 title: "A banal machine learning system where interpretability and explainability matter"
-date: 2020-08-28T06:11:10+02:00
-draft: true
+date: 2021-01-06T06:11:10+02:00
+draft: false
+description: As algorithmic systems become more prevalent, the need to understand them grows (Interpretability report from Cloudera).
 ---
 
 > As algorithmic systems become more prevalent, the need to understand them grows (Interpretability report from Cloudera).
@@ -74,4 +75,4 @@ There are other advantages to interpretability and explainability.
 
 >The more you understand the algorithm, the more you can improve it (Cloudera report).
 
-
+Thank you for reading. Feel free to contact me on [Twitter](https://twitter.com/saby_nastasia) if you want to discuss that.

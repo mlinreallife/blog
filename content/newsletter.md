@@ -31,10 +31,12 @@ description = "Newsletter to learn about data science in real life and machine l
 </form>
 </div>
 
-Previous issues:
+Previous  issues:
 
-[Issue 1: Data versioning, tips for Pytest, freelancing, etc (12th of November, 2020)]({{< ref "/posts/press_review_1.md" >}})
+[Issue 4: Resources to get an overview of a machine learning project (24th of Decemeber, 2020)]({{< ref "/posts/press_review_4.md" >}})
+
+[Issue 3: Feature store, weird chatbot, XGboost for Spark and Airflow in Amazon (10th of December, 2020)]({{< ref "/posts/press_review_3.md" >}})
 
 [Issue 2: Unit tests for data, Data + AI summit, etc (26th of November, 2020)]({{< ref "/posts/press_review_2.md" >}})
 
-[Issue 3: Feature store, weird chatbot, XGboost for Spark and Airflow in Amazon (10th of Decemeber, 2020)]({{< ref "/posts/press_review_3.md" >}})
+[Issue 1: Data versioning, tips for Pytest, freelancing, etc (12th of November, 2020)]({{< ref "/posts/press_review_1.md" >}})

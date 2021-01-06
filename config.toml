@@ -45,10 +45,10 @@ canonifyURLs = true
     weight = 200
     url = "/newsletter/"
 [[menu.main]]
-    name = "About"
-    identifier = "about"
+    name = "About me Nastasia Saby"
+    identifier = "nastasia_saby"
     weight = 300
-    url = "/about/"
+    url = "/nastasia_saby/"
 
 [markup]
   [markup.goldmark]

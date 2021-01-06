@@ -1,6 +1,6 @@
 +++
-title = "About"
-description = "About me"
+title = "Nastasia Saby"
+description = "About me Nastasia Saby"
 +++
 
 Hi! I'm Nastasia Saby.  I'm a machine learning engineer. My goal is to give insights of machine learning in real life.
