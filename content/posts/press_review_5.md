@@ -1,7 +1,7 @@
 ---
 title: "Issue 5: Resources to get started with Kubernetes"
-date: 2020-11-09T07:01:10+02:00
-draft: true
+date: 2021-01-06T07:01:10+02:00
+draft: false
 description: As a data scientist, data engineer or, machine learning engineer, you sometimes have to deal with Kubernetes, this strange tool to orchestrate containers. This is why this is the main subject of this issue.
 ---
 

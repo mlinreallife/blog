@@ -33,7 +33,9 @@ description = "Newsletter to learn about data science in real life and machine l
 
 Previous  issues:
 
-[Issue 4: Resources to get an overview of a machine learning project (24th of Decemeber, 2020)]({{< ref "/posts/press_review_4.md" >}})
+[Issue 5: Resources to get started with Kubernetes (7th of January, 2021)]({{< ref "/posts/press_review_5.md" >}})
+
+[Issue 4: Resources to get an overview of a machine learning project (24th of December, 2020)]({{< ref "/posts/press_review_4.md" >}})
 
 [Issue 3: Feature store, weird chatbot, XGboost for Spark and Airflow in Amazon (10th of December, 2020)]({{< ref "/posts/press_review_3.md" >}})
 
