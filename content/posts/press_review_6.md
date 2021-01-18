@@ -2,7 +2,7 @@
 title: "Issue 6: Past, present and, future of AI and ML"
 date: 2020-11-09T07:01:10+02:00
 draft: true
-description: This week, I'm sharing with you some resources I recently read about the past, present and, possible future of AI and ML.
+description: This week, I'm sharing some resources I recently read about the past, present and, possible future of AI and ML. What have we done with AI? What can we do? And what can we hope we will be able to do?
 ---
 
 <!-- Begin Mailchimp Signup Form -->
@@ -33,7 +33,7 @@ description: This week, I'm sharing with you some resources I recently read abou
 </form>
 </div>
 
-This week, I'm sharing some resources I recently read about the past, present and, possible future of AI and ML.
+This week, I'm sharing some resources I recently read about the past, present and, possible future of AI and ML. What have we done with AI? What can we do? And what can we hope we will be able to do?
 
 ## [A quick history of AI](https://www.youtube.com/watch?v=t81HiFOqbAs&feature=emb_logo)
 
@@ -78,7 +78,7 @@ It gives an overall landscape of MLOps tools.
 - San Francisco is still the epicenter of machine learning, but not the only hub
 ![Repartition of tools in the world](/3_mlops_location.png)
 - MLOps infrastructures in the US and China are diverging
-- More interests in machine learning production from academia: we can think about Challenges in Deploying and Monitoring Machine Learning Systems workshop at ICML MLSys Seminars at Stanford Conference on Machine Learning and Systems
+- More interests in machine learning production from academia: we can think about the paper named [Challenges in Deploying Machine Learning: a Survey of Case Studies](https://arxiv.org/abs/2011.09926)
 
 ## [This avocado armchair could be the future of AI](https://www.technologyreview.com/2021/01/05/1015754/avocado-armchair-future-ai-openai-deep-learning-nlp-gpt3-computer-vision-common-sense/amp/)
 
@@ -95,7 +95,7 @@ Here are two answers:
 I'm not sure that there's a move in machine learning towards real-time. Or at least, I don't think it's imminent.
 From my point of view, it clearly depends on the context where you work.
 
-From my point of view, real-time inference is more and more important. But I'm not sure it's true for training.
+For me, real-time inference is more and more important. But I'm not sure it's true for training.
 
 I thought this article interesting if you have to deal with real-time machine learning (real-time inference or training).
 
