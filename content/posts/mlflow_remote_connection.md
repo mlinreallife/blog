@@ -1,7 +1,7 @@
 ---
 title: "How can you connect to MLFlow registry remotely?"
-date: 2020-09-18T17:01:10+02:00
-draft: true
+date: 2021-01-25T09:01:10+02:00
+draft: false
 description: MLFlow is helpful when you are looking for reproducibility and MLOps. This tutorial will lead you to connect to MLFlow model registry from outside.
 ---
 
@@ -74,9 +74,9 @@ customized_mlflow_client = mlflow.tracking.MlflowClient(tracking_uri=None, regis
 customized_mlflow_client.list_registered_models()
 ```
 
-Here you are! :happy:
+Here you are! :smile:
 
-Thank you for reading. I hope it has helped you a bit. Feel free to contact me on [Twitter](https://twitter.com/saby_nastasia) if you want to discuss that or if I can help.
-Many people have helped me to understand this problem. Then, I would be delighted to do the same :happy:.
+Thank you for reading. I hope it would have helped you a bit. Feel free to contact me on [Twitter](https://twitter.com/saby_nastasia) if you want to discuss that or if I can help.
+Many people have helped me to understand this problem. Then, I would be delighted to do the same :smile:.
 
-MLFlow is a tool I admire. It was designed by Databricks. This company also offers services to introduce you to this one. I'm not working for Databricks. It's not an advertisement, just a piece of information I give to you.
+MLFlow is a tool I admire. It was designed by Databricks. This company also offers services to introduce you to this one. I'm not working for Databricks. It's not an advertisement, just a piece of information I give to you. I was helped by Databricks myself.

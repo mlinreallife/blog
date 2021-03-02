@@ -1,10 +1,8 @@
 ---
 title: "Issue 7: Recommendation systems and data engineering jobs"
-date: 2020-11-09T07:01:10+02:00
-draft: true
-description: Once, I've assessed different recommendation systems through AB tests. They were black boxes for me. I've decided to focus my recent techno watch on recommendation systems. I wanted to understand better these black boxes. There are many ways to do recommendation systems. The solutions depend on your context and needs.
-
-In this newsletter, I also would like to talk a bit about the roles of data engineers or machine learning engineers.
+date: 2021-02-03T07:01:10+02:00
+draft: false
+description: Once, I've assessed different recommendation systems through AB tests. They were black boxes for me. I've decided to focus my recent techno watch on recommendation systems. I wanted to understand better these black boxes. There are many ways to do recommendation systems. The solutions depend on your context and needs. In this newsletter, I also would like to talk a bit about the roles of data engineers or machine learning engineers.
 ---
 
 <!-- Begin Mailchimp Signup Form -->
@@ -69,7 +67,7 @@ There's also a scalability issue.
 
 This post covers how to improve the previous KNN solution with matrix factorization. It uses ALS (Alternating Least Square), a way to build a distributed matrix factorization with Spark ML.
 
-## [How does Netflix recommend movies? Matrix Factorization](https://www.youtube.com/watch?v=ZspR5PZemcs&t=229s)
+## [How does Netflix recommend movies? Matrix Factorization](https://www.youtube.com/watch?v=ZspR5PZemcs)
 > A friendly introduction to recommender systems with matrix factorization and how it's used to recommend movies in Netflix.
 
 I found that it's easier to understand *matrix factorization* through this video than with the previous post. They complement each other.

@@ -1,9 +1,8 @@
 ---
 title: "Issue 8: Code standardisation and MLOps seen by Databricks"
-date: 2020-11-09T07:01:10+02:00
-draft: true
-description: Code standardisation inside the same team is important. There are different ways to achieve this goal.
-In this newsletter, I also would like to talk about MLOps and the way Databricks presents that.
+date: 2021-02-16T07:01:10+02:00
+draft: false
+description: Code standardisation inside the same team is important. There are different ways to achieve this goal. In this newsletter, I also would like to talk about MLOps and the way Databricks presents that.
 ---
 
 <!-- Begin Mailchimp Signup Form -->
@@ -42,7 +41,7 @@ If you don't know where to start with code standardisation, the Python community
 
 ## [How To Write Python Like A Senior Developer](https://towardsdatascience.com/how-to-write-code-like-a-senior-developer-9ee34555858f)
 
-Code standardisation inside the same team is important. To realise that, you can use Pylint in Python.
+Code standardisation inside the same team is important. To do that, you can use Pylint in Python.
 Pylint is based on PEP 8. With that, you don't have to know all the rules by heart. You can follow Pylint. You can integrate it in a CI/CD pipeline to get automatic checks.
 
 ## [Our Python Monorepo](https://medium.com/opendoor-labs/our-python-monorepo-d34028f2b6fa)
@@ -51,7 +50,7 @@ Another way to get code standardisation is to build a unique monorepo. I'm not s
 
 ## [MLOps Virtual Event](https://databricks.com/fr/p/webinar/operationalizing-machine-learning-at-scale)
 
-I recently attend a meeting provided by Databricks about MLOps. The recording is available on demand.
+I recently attended a meeting provided by Databricks about MLOps. The recording is available on demand.
 
 Here is what I've found interesting:
 - One of the most evident benefit of The MLFlow Model registry is that it's a central place for the models

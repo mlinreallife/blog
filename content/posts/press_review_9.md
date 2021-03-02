@@ -1,7 +1,8 @@
 ---
 title: "Issue 9: Code standardization, container orchestration, lakehouse, cats: concepts needed to productionalize machine learning models"
-date: 2020-11-09T07:01:10+02:00
-draft: true
+date: 2021-03-01T07:01:10+02:00
+draft: false
+images: [mia_cute.jpg] 
 description: Code standardisation with Pylint, container orchestration with Kubernetes, lakehouse with DeltaLake, working with cats <3, these are many concepts that can be useful to productionalize machine learning. This is what I saw recently and thought interesting.
 ---
 
@@ -33,7 +34,7 @@ description: Code standardisation with Pylint, container orchestration with Kube
 </form>
 </div>
 
-Code standardisation with Pylint, container orchestration with Kubernetes, lakehouse with DeltaLake, working with cats <3, these are many concepts that can be useful to productionalize machine learning. This is what I saw recently and thought interesting.
+Code standardisation with Pylint, container orchestration with Kubernetes, lakehouse with DeltaLake, working with cats :heart:, these are many concepts that can be useful to productionalize machine learning. This is what I saw recently and thought interesting.
 
 ## [Why Pylint is both useful and unusable, and how you can actually use it](https://pythonspeed.com/articles/pylint/)
 

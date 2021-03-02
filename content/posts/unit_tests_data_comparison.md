@@ -1,7 +1,9 @@
 ---
-title: "Comparison of different tools to do unit tests"
-date: 2020-11-09T07:01:10+02:00
-draft: true
+title: "Comparison of different tools to do unit tests for data"
+date: 2021-01-08T07:01:10+02:00
+draft: false
+description: "Recently, I benchmarked different tools to do unit tests for data. Here are the results."
+images: ["unit_test_data.png"]
 ---
 
 TL;DR:

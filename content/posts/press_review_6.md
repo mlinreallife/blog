@@ -1,7 +1,7 @@
 ---
-title: "Issue 6: Past, present and, future of AI and ML"
-date: 2020-11-09T07:01:10+02:00
-draft: true
+title: "Issue 6: The past, present and, future of AI and ML"
+date: 2021-01-18T07:01:10+02:00
+draft: false
 description: This week, I'm sharing some resources I recently read about the past, present and, possible future of AI and ML. What have we done with AI? What can we do? And what can we hope we will be able to do?
 ---
 

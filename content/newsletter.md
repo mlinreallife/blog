@@ -33,6 +33,14 @@ description = "Newsletter to learn about data science in real life and machine l
 
 Previous  issues:
 
+[Issue 9: Code standardization, container orchestration, lakehouse, cats: concepts needed to productionalize machine learning models (4th of March, 2021)]({{< ref "/posts/press_review_9.md" >}})
+
+[Issue 8: Code standardisation and MLOps seen by Databricks (18th of February, 2021)]({{< ref "/posts/press_review_8.md" >}})
+
+[Issue 7: Recommender systems and data engineering (4th of February, 2021)]({{< ref "/posts/press_review_7.md" >}})
+
+[Issue 6: The past, present and possible future of AI and ML (21st of January, 2021)]({{< ref "/posts/press_review_6.md" >}})
+
 [Issue 5: Resources to get started with Kubernetes (7th of January, 2021)]({{< ref "/posts/press_review_5.md" >}})
 
 [Issue 4: Resources to get an overview of a machine learning project (24th of December, 2020)]({{< ref "/posts/press_review_4.md" >}})
