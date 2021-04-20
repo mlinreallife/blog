@@ -3,7 +3,7 @@ title: "Issue 13: Kubernetes and DevOps concepts"
 date: 2021-03-01T07:01:10+02:00
 draft: false
 images: [blue_green.gif] 
-description: Recently, for an R&D project, I had to implement Bayesian AB tests. As AB tests are an important key to develop safely and surely, I decided to present to you what I've learnt so far. I focused my reasearch on the Pymc3 library.
+description: Kubernetes is a tool. The concepts that are around this one are important: zero downtime deployment, containers orchestration, scaling, etc. They help to deploy safely and then to get solid ML systems. It's relevant to understand these concepts. This week, I would like to highlight some of them through different resources.
 ---
 
 <!-- Begin Mailchimp Signup Form -->
@@ -34,7 +34,7 @@ description: Recently, for an R&D project, I had to implement Bayesian AB tests.
 </form>
 </div>
 
-Kubernetes is a tool. The concepts that are around this one are important: zero downtime deployment, containers orchestration, scaling, etc. They help to deploy safely and then to get solid ML systems. It's relevant to understand these concepts. This week, I would like to highlight a book about them that I read recently.
+Kubernetes is a tool. The concepts that are around this one are important: zero downtime deployment, containers orchestration, scaling, etc. They help to deploy safely and then to get solid ML systems. It's relevant to understand these concepts. This week, I would like to highlight some of them through different resources.
 
 ## [Cloud Native DevOps with Kubernetes](https://www.oreilly.com/library/view/cloud-native-devops/9781492040750/)
 
@@ -71,7 +71,7 @@ I wanted to speak of a mistake that is easy to do with Kubernetes but harmful: n
 
 ## [Zero-downtime Blue Green Deployments for Microservices](https://medium.com/@dantwining_26268/zero-downtime-blue-green-deployments-for-microservices-7896558623b2)
 
-I added this article that explains the principle of blue green deployment with animations.
+This article explains the principle of blue green deployment with animations.
 
 ![blue_green](/blue_green.gif)
 
