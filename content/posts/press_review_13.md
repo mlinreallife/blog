@@ -3,7 +3,7 @@ title: "Issue 13: Kubernetes and DevOps concepts"
 date: 2021-03-01T07:01:10+02:00
 draft: false
 images: [blue_green.gif] 
-description: Kubernetes is a tool. The concepts that are around this one are important: zero downtime deployment, containers orchestration, scaling, etc. They help to deploy safely and then to get solid ML systems. It's relevant to understand these concepts. This week, I would like to highlight some of them through different resources.
+description: Kubernetes is a tool. The concepts that are around this one are interesting: zero downtime deployment, containers orchestration, scaling, etc. They help to deploy safely and then to get solid ML systems. It's relevant to understand these concepts. This week, I would like to highlight some of them through different resources.
 ---
 
 <!-- Begin Mailchimp Signup Form -->
@@ -34,7 +34,7 @@ description: Kubernetes is a tool. The concepts that are around this one are imp
 </form>
 </div>
 
-Kubernetes is a tool. The concepts that are around this one are important: zero downtime deployment, containers orchestration, scaling, etc. They help to deploy safely and then to get solid ML systems. It's relevant to understand these concepts. This week, I would like to highlight some of them through different resources.
+Kubernetes is a tool. The concepts that are around this one are interesting: zero downtime deployment, containers orchestration, scaling, etc. They help to deploy safely and then to get solid ML systems. It's relevant to understand these concepts. This week, I would like to highlight some of them through different resources.
 
 ## [Cloud Native DevOps with Kubernetes](https://www.oreilly.com/library/view/cloud-native-devops/9781492040750/)
 
@@ -63,7 +63,7 @@ The book is about Kubernetes but also about some DevOps concepts in general.
  
  > The observability of your system is a measure of how well-instrumented it is, and how easily you can find out what's going on inside it.
 
-It's also important to know what to check. A system that is 99,9% of the time up doesn't mean that users are happy. Your system can lag and your users can turn away from it.
+It's also crucial to know what to check. A system that is 99,9% of the time up doesn't mean that users are happy. Your system can lag and your users can turn away from it.
 
 ##[Kubernetes - Be sure of being ready for real zero downtime deployment](https://medium.com/ni-tech-talk/optimizing-revenue-with-bayesian-a-b-testing-5068e8ac41ea)
 
