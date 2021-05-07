@@ -49,9 +49,9 @@ The book is about Kubernetes but also about some DevOps concepts in general.
 
  > Charts are easy to create, version, share, and publish — so start using Helm and stop the copy-and-paste.
 
- - Use [Kubeval](https://github.com/instrumenta/kubeval) to validate your Kubernete manifests
+ - Use [Kubeval](https://github.com/instrumenta/kubeval) to validate your Kubernetes manifests
  
- > kubeval is a tool for validating a Kubernetes YAML or JSON configuration file. It does so using schemas generated from the Kubernetes OpenAPI specification, and therefore can validate schemas for multiple versions of Kubernetes.
+ > Kubeval is a tool for validating a Kubernetes YAML or JSON configuration file. It does so using schemas generated from the Kubernetes OpenAPI specification, and therefore can validate schemas for multiple versions of Kubernetes.
 
  - Use [Sops](https://github.com/mozilla/sops) to get a simple way of managing your secrets 
  
@@ -63,11 +63,11 @@ The book is about Kubernetes but also about some DevOps concepts in general.
  
  > The observability of your system is a measure of how well-instrumented it is, and how easily you can find out what's going on inside it.
 
-It's also crucial to know what to check. A system that is 99,9% of the time up doesn't mean that users are happy. Your system can lag and your users can turn away from it.
+It's also crucial to know what to check. A system that is 99.9% of the time up doesn't mean that users are happy. Your system can lag and your users can turn away from it.
 
 ##[Kubernetes - Be sure of being ready for real zero downtime deployment](https://medium.com/ni-tech-talk/optimizing-revenue-with-bayesian-a-b-testing-5068e8ac41ea)
 
-I wanted to speak of a mistake that is easy to do with Kubernetes but harmful: not setting the readiness of your application. It can break the zero downtime concept. In this article, I highlight the problem and the solution.
+I wanted to speak of a mistake that is easy to do with Kubernetes but harmful: not setting the readiness of your application. It can break the zero downtime concept. In this article, I highlight the problem and one possible solution.
 
 ## [Zero-downtime Blue Green Deployments for Microservices](https://medium.com/@dantwining_26268/zero-downtime-blue-green-deployments-for-microservices-7896558623b2)
 
