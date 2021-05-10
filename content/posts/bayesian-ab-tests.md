@@ -20,20 +20,20 @@ Steps:
 Example: you want to change the background colour of your website: from blue to green.
 You have 2 variants: blue (the old colour) and green (the new one) that you want to test. 
 
-**You’ve done some research and know that in your industry, green is a colour that outweigh the blue by 16%.**
+**You’ve done some research and know that in your industry, green is a colour generates 16% of conversion whereas blue generates 10% in your company.**
 
-This 16% is your prior beliefs.
-The experiment give your results.
+These 16% and 10% are your prior beliefs.
+The experiment gives you some results.
 And the combination of both is the revision of your former beliefs: your posterior beliefs.
 
-# Set your prior belief as a beta distribution
+# Set your prior beliefs as a beta distribution
 To set a distribution as prior beliefs, you can use a Beta distribution.
 
 The Beta distribution has two parameters: 
 alpha => the number of successes
 beta => the number of failures
 
-If you think that you will be better with your new colour by 16%, you can set your beta distribution as: Beta(16, 84). 
+If you think that your new color will give 16% of conversion, you can set your beta distribution as: Beta(16, 84). 
 
 For a total of 100 trials, you get 16 successes and 86 failures.
 
