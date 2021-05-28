@@ -7,7 +7,8 @@ description: I've just finished a book about designing data intensive applicatio
 
 I've just finished a book about designing data intensive applications.
 
-TLDR;
+TL;DR
+
 It's good to know the concepts behind the tools you use everyday. This is what this book is about regarding databases.
 I must also confess that I was a bit disappointed because the focus is not about data science but more about dealing with data in more common applications.
 The book is very good in my opinion. I recommend it.
