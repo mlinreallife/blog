@@ -18,7 +18,7 @@ Martin Kleppmann is a senior lecturer at the University of Cambridge.
 This is why you will find the point of view of a researcher through the book.
 
 ## Summary
-This books is about problems and solution to achieve reliable, scalable and maintenable applications.
+This books is about problems and solutions to achieve reliable, scalable and maintenable applications.
 
 The book is wide. I would focus only on concurrency control, when two programs or more want to access the same piece of data. You can face different problems of race conditions. A race condition happens when several programs want to access a shared variable.
 Write skew is an example of problem of race conditions. It happens when a user reads a piece of data, makes a decision according to this, and writes this decision. But meanwhile, the piece of data has been changed by the action of another user.
