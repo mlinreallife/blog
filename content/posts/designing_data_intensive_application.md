@@ -42,6 +42,6 @@ This is the strongest isolation. It's not always efficient. The idea is to execu
 - Concepts are well explained. Some are tricky, but there's a real effort to explain them well.
 
 ## What I didn't like?
-I was expected a book more about data in data science. Finally, the problem comes from me, not from the book.
+I was expected a book more about data in data science. At the end of the day, the problem comes from me, not from the book.
 
 Thank you for reading. Feel free to contact me on [Twitter](https://twitter.com/saby_nastasia) if you want to discuss that.
