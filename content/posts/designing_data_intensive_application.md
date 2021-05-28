@@ -40,7 +40,6 @@ This is the strongest isolation. It's not always efficient. The idea is to execu
 - The point of view of a researcher
 - Discovering concepts behind the tools I've used
 - Concepts are well explained. Some are tricky, but there's a real effort to explain them well.
-- 
 
 ## What I didn't like?
 I was expected a book more about data in data science. Finally, the problem comes from me, not from the book.
